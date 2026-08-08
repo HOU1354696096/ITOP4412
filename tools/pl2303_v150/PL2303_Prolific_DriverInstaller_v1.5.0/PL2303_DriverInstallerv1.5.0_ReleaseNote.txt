@@ -1,0 +1,71 @@
+
+==================================================
+PL-2303 Driver Setup Installer, Prolific Edition
+Setup Installer Revision Note History
+==================================================
+
+System Requirement:
+  . Supports the following Windows OS Family:
+	- Windows 2000 SP4
+	- Windows XP SP2 and above (32 & 64 bit)
+	- Windows Server 2003 (32 & 64 bit)
+	- Windows Vista (32 & 64 bit)
+	- Windows 7 (32 & 64 bit)
+	- Windows Server 2008 / 2008 R2 (32 & 64 bit)
+  . USB 1.1/2.0/3.0 Host Controller
+  . Device using PL-2303H/HX/X version chips
+  . Device using Prolific next-gen version chips (Codename EA/TA/TB)
+ 
+Supported device ID and product strings:
+  . VID_067B&PID_2303 for "Prolific USB-to-Serial Comm Port"
+
+Driver Versions:
+-------------------
+	- Windows 2000/XP/Server2003 (32 & 64-bit) WDM WHQL Driver: v2.1.27.185
+	- Windows Vista/7/Server2008 (32 & 64-bit) WDF WHQL Driver: v3.4.25.218
+
+
+Release Notes:
+---------------
+PL2303 Driver Installer v1.5.0
+ 
+   Changes from Installer v1.4.17:
+
+   Installer & Build date: 1.5.0 (2011-10-21)
+	GUID:ECC3713C-08A4-40E3-95F1-7D0704F1CE5E
+
+   Windows 2000/XP/Server2003 Driver v2.1.27.185  
+   ----------------------------------------------
+	Driver Change from v2.0.16.166:
+	. Added driver support for Prolific next-gen USB-to-Serial chips (Codename TA/TB).
+	   - old driver will not work on baudrates higher than 115200bps.
+	. No driver functional difference for current H/HX/X chip versions.
+	. Special Baudrate addition will only be supported by request for HXD and next-gen chip versions.
+
+   Windows Vista/7/Server2008/Server2008R2 Driver Changes v3.4.25.218
+   ------------------------------------------------------------------
+	Driver Change from v3.3.17.203:
+	. Added driver support for Prolific next-gen USB-to-Serial chips (Codename TA/TB).
+	   - old driver will not work on baudrates higher than 115200bps.
+	. No driver functional difference for current H/HX/X chip versions.
+	. Special Baudrate addition will only be supported by request for HXD and next-gen chip versions.
+
+   Language Support: 
+	- English (default)
+	- Chinese (Traditional) 
+	- Chinese (Simplified)
+	- Japanese
+
+Download Latest Driver here:
+http://www.prolific.com.tw/eng/downloads.asp?ID=31
+
+==========
+Warning!!!
+==========
+If you are encountering yellow mark (Error Code 10) for device in Device Manager, you need to contact the cable vendor or manufacturer for Prolific genuine chip validity. Prolific does not manufacture any end-user cable products and will not provide direct support to end-users. 
+Prolific highly suggest end-users to contact the user product manufacturer for service and support. 
+
+
+========================================
+Prolific Technology Inc.
+http://www.prolific.com.tw

@@ -1,0 +1,1347 @@
+[Info]
+language=Turkish
+date=2026-06-18 by TeraTerm Project
+contributor= Mehmet Cagri Aksoy (2025-08-04)
+
+[Tera Term]
+DLG_SYSTEM_FONT=System,14,0
+DLG_TAHOMA_FONT=Tahoma,8,0
+
+MENU_FILE=&Dosya
+MENU_FILE_NEW=&Yeni baðlantý...\tAlt+N
+MENU_FILE_DUPLICATE=D&uplicate oturum\tAlt+D
+MENU_FILE_GYGWIN=Cy&gwin baðlantýsý\tAlt+G
+MENU_FILE_LOG=&Kayýt...
+MENU_FILE_PAUSELOG=Kaydý &Durdur
+MENU_FILE_COMMENTLOG=Kayýt &Yorumla...
+MENU_FILE_VIEWLOG=&Kaydý Görüntüle
+MENU_FILE_SHOWLOGDIALOG=Sho&w Logging dialog...
+MENU_FILE_STOPLOG=Kaydý Durdur (&Q)
+MENU_FILE_SENDFILE=&Dosya Gönder...
+MENU_FILE_RECVFILE=Resim dosyasý al (&Z)...
+MENU_FILE_CHANGEDIR=&Dizini Deðiþtir...
+MENU_FILE_REPLAYLOG=&Kaydý Tekrarla...
+MENU_FILE_PRINT=&Yazdýr...\tAlt+P
+MENU_FILE_DISCONNECT=&Baðlantýyý Kes\tAlt+I
+MENU_FILE_EXIT=Çý&kýþ\tAlt+Q
+MENU_FILE_EXITALL=Hepsini &Kapat
+
+MENU_TRANS=&Transfer
+MENU_TRANS_KERMIT_RCV=&Al
+MENU_TRANS_KERMIT_GET=&Al...
+MENU_TRANS_KERMIT_SEND=&Gönder...
+MENU_TRANS_KERMIT_FINISH=&Bitir
+MENU_TRANS_X_RCV=&Al...
+MENU_TRANS_X_SEND=&Gönder...
+MENU_TRANS_Y_RCV=&Al...
+MENU_TRANS_Y_SEND=&Gönder...
+MENU_TRANS_Z_RCV=&Al
+MENU_TRANS_Z_SEND=&Gönder...
+MENU_TRANS_BP_RCV=&Al
+MENU_TRANS_BP_SEND=&Gönder...
+MENU_TRANS_QV_RCV=&Al
+MENU_TRANS_QV_SEND=&Gönder...
+
+MENU_EDIT=&Düzenle
+MENU_EDIT_COPY=&Kopyala\tAlt+C
+MENU_EDIT_COPYTABLE=Tabloyu &Kopyala
+MENU_EDIT_PASTE=&Yapýþtýr\tAlt+V
+MENU_EDIT_PASTECR=Yapýþtýr<C&R>\tAlt+R
+MENU_EDIT_CLSCREEN=Ekraný &Temizle
+MENU_EDIT_CLBUFFER=Tamponu &Temizle
+MENU_EDIT_CANCELSELECT=Seçimi &Ýptal Et
+MENU_EDIT_SELECTSCREEN=Ekraný &Seç
+MENU_EDIT_SELECTALL=Hepsini &Seç
+
+MENU_SETUP=&Ayarlar
+MENU_SETUP_TERMINAL=&Terminal...
+MENU_SETUP_WINDOW=&Pencere...
+MENU_SETUP_FONT=&Yazý Tipi...
+MENU_SETUP_KEYBOARD=&Klavye...
+MENU_SETUP_SERIALPORT=S&eri Port...
+MENU_SETUP_TCPIP=T&CP/IP...
+MENU_SETUP_GENERAL=&Genel...
+MENU_SETUP_ADDITION=E&k Ayarlar...
+MENU_SETUP_SAVE=&Ayarlarý Kaydet...
+MENU_SETUP_RESTORE=&Ayarlarý Geri Yükle...
+MENU_SETUP_OPENSETUP=Ayarlar &Dizini...
+MENU_SETUP_LOADKEYMAP=&Tuþ Haritasý Yükle...
+
+MENU_CONTROL=&Kontrol
+MENU_CONTROL_RESET=&Terminali Sýfýrla
+MENU_CONTROL_RESETTITLE=Uzak Baþlýðý &Sýfýrla
+MENU_CONTROL_AREYOUTHERE=Orada mýsýnýz?\tAlt+T
+MENU_CONTROL_SENDBREAK=&Break Gönder\tAlt+B
+MENU_CONTROL_RESETPORT=Portu &Sýfýrla
+MENU_CONTROL_BROADCAST=&Komut Yayýnla
+MENU_CONTROL_OPENTEK=&TEK Aç
+MENU_CONTROL_CLOSETEK=&TEK Kapat
+MENU_CONTROL_MACRO=&Makro
+MENU_CONTROL_SHOW_MACRO=Makro &Penceresini Göster
+
+MENU_WINDOW=&Pencere
+MENU_WINDOW_WINDOW=&Pencere
+MENU_WINDOW_MINIMIZEALL=&Tümünü Küçült
+MENU_WINDOW_CASCADE=&Basamakla
+MENU_WINDOW_STACKED=&Yýðýnla
+MENU_WINDOW_SIDEBYSIDE=Yan &Yana
+MENU_WINDOW_RESTOREALL=&Tümünü Geri Yükle
+MENU_WINDOW_CASCADE_UNDO=&Geri Al - Basamakla
+MENU_WINDOW_STACKED_UNDO=&Geri Al - Yýðýnla
+MENU_WINDOW_SIDEBYSIDE_UNDO=&Geri Al - Yan Yana
+
+MENU_HELP=&Yardým
+MENU_HELP_INDEX=&Dizin
+MENU_HELP_ABOUT=&Tera Term Hakkýnda...
+
+MENU_SHOW_MENUBAR=Menü &Çubuðunu Göster
+
+
+TEKMENU_FILE=&Dosya
+TEKMENU_FILE_PRINT=&Yazdýr...\tAlt+P
+TEKMENU_FILE_EXIT=Çý&kýþ\tAlt+Q
+
+TEKMENU_EDIT=&Düzenle
+TEKMENU_EDIT_COPY=&Kopyala\tAlt+C
+TEKMENU_EDIT_COPYSCREEN=&Ekraný kopyala
+TEKMENU_EDIT_PASTE=&Yapýþtýr\tAlt+V
+TEKMENU_EDIT_PASTECR=Yapýþtýr<C&R>\tAlt+R
+TEKMENU_EDIT_CLSCREEN=Ekraný &temizle
+
+TEKMENU_SETUP=&Ayarlar
+TEKMENU_SETUP_WINDOW=&Pencere
+TEKMENU_SETUP_FONT=&Yazý Tipi
+
+TEKMENU_VTWIN=VT-Pence&re
+
+TEKMENU_WINDOW=&Pencere
+
+TEKMENU_HELP=&Yardým
+TEKMENU_HELP_INDEX=&Dizin
+TEKMENU_HELP_USING=&Yardým kullanma
+TEKMENU_HELP_ABOUT=&Tera Term Hakkýnda...
+
+TEKMENU_SHOW_MENUBAR=Menü &çubuðunu göster
+
+; ttermpro
+; filesys.cpp
+MSG_COMMENT_LOG_OPEN_ERROR=Henüz kayýt dosyasý tarafýndan açýlmadý.
+
+; ttime.c
+MSG_USE_IME_ERROR=IME kullanýlamýyor
+
+; ttplug.c
+MSG_LOAD_EXT_ERROR=Uzantý yüklenemiyor %s (%d)
+
+; ttwinman.c
+DLG_MAIN_TITLE_CONNECTING=[baðlanýyor...]
+DLG_MAIN_TITLE_DISCONNECTED=[baðlantý kesildi]
+
+; vtterm.c
+MSG_CBACCESS_TITLE=Pano Eriþimi
+MSG_CBACCESS_REJECT_TITLE=Reddedilen Pano Eriþimi
+MSG_CBACCESS_READ=Uzak ana bilgisayar pano içeriðini okuyor.
+MSG_CBACCESS_WRITE=Uzak ana bilgisayar panoya yazýyor.
+MSG_CBACCESS_READ_REJECT=Uzaktan pano okuma eriþimini reddet.
+MSG_CBACCESS_WRITE_REJECT=Uzaktan pano yazma eriþimini reddet.
+
+; vtwin.cpp
+MSG_ALL_TERMINATE_CONF=TÜM Tera Term(ler)i sonlandýr?
+MSG_DISCONNECT_CONF=Baðlantýyý kes?
+MSG_EXEC_TT_ERROR=Tera Term çalýþtýrýlamýyor. (%d)
+MSG_FIND_CYGTERM_DIR_ERROR=Cygwin dizini bulunamýyor.
+MSG_CYGTERM_ENV_ALLOC_ERROR=Ortam deðiþkeni için bellek ayrýlamýyor.
+MSG_EXEC_CYGTERM_ERROR=Cygterm çalýþtýrýlamýyor.
+MSG_EXEC_TTMENU_ERROR=TeraTerm Menü çalýþtýrýlamýyor. (%d)
+MSG_VIEW_LOGFILE_ERROR=Kayýt dosyasý görüntülenemiyor. (%d)
+FILEDLG_OPEN_LOGFILE_TITLE=Ýkili modda tekrar oynatma kayýt dosyasýný seçin
+FILEDLG_OPEN_LOGFILE_FILTER=hepsi(*.*)\0*.*\0\0
+DIRDLG_CYGTERM_DIR_TITLE=Cygwin dizinini seçin
+MSG_CYGTERM_CONF_WRITEFILE_ERROR=CygTerm yapýlandýrma dosyasý yazýlamýyor (%d).
+MSG_CYGTERM_CONF_REMOVEFILE_ERROR=Eski CygTerm yapýlandýrma dosyasý kaldýrýlamýyor (%d).
+MSG_CYGTERM_CONF_RENAMEFILE_ERROR=CygTerm yapýlandýrma dosyasý yeniden adlandýrýlamýyor (%d).
+MSG_CYGTERM_CONF_SAVED_NOTICE=Cygwin sekme yapýlandýrmasý %s konumuna kaydedildi.
+FILEDLG_SELECT_LOGVIEW_APP_TITLE=Kayýt dosyasýný baþlatmak için çalýþtýrýlacak dosyayý seçin
+FILEDLG_SELECT_LOGVIEW_APP_FILTER=exe(*.exe)\0*.exe\0hepsi(*.*)\0*.*\0\0
+FILEDLG_SELECT_LOGDIR_TITLE=Kayýt klasörünü seçin
+FILEDLG_SELECT_CONFIRM_STRING_APP_TITLE=ConfirmChangePaste için dizeleri içeren bir dosya seçin
+FILEDLG_SELECT_CONFIRM_STRING_APP_FILTER=txt(*.txt)\0*.txt\0hepsi(*.*)\0*.*\0\0
+MSG_LOGFILE_INVALID_CHAR_ERROR=Kayýt dosyasý adýnda geçersiz karakter var.
+MSG_LOGFILE_TOOLONG_ERROR=Kayýt dosyasý adý çok uzun.
+MSG_TT_FILE_OPEN_ERROR=Tera Term: Dosya açma hatasý
+MSG_LOGFILE_WRITE_ERROR=Kayýt dosyasýna yazýlamýyor.\n%s
+MSG_SAVESETUP_PERMISSION_ERROR=TERATERM.INI dosyasý yazýlabilir izne sahip deðil.
+
+DLG_TABSHEET_TITLE=Tera Term: Ek ayarlar
+DLG_TABSHEET_TITLE_GENERAL=Genel
+DLG_TABSHEET_TITLE_SEQUENCE=Kontrol Dizisi
+DLG_TABSHEET_TITLE_COPYPASTE=Kopyala ve Yapýþtýr
+DLG_TABSHEET_TITLE_VISUAL=Görsel
+DLG_TABSHEET_TITLE_LOG=Kayýt
+DLG_TABSHEET_TITLE_CYGWIN=Cygwin
+DLG_TABSHEET_TITLE_FONT=Yazý Tipi
+DLG_TABSHEET_TITLE_ENCODING=Kodlama
+DLG_TABSHEET_TITLE_THEME=Tema
+DLG_TABSHEET_TITLE_MOUSE=Fare
+DLG_TABSHEET_TITLE_FONT_TEK=Yazý Tipi(TEK)
+
+DLG_TAB_GENERAL_CLICKURL=&Týklanabilir URL'yi etkinleþtir
+DLG_TAB_GENERAL_DISABLESENDBREAK=Hýzlandýrýcý &break göndermeyi devre dýþý býrak
+DLG_TAB_GENERAL_ACCEPTBROADCAST=&Yayýn kabul et
+DLG_TAB_GENERAL_MOUSEWHEEL_SCROLL_LINE=Fare &tekerleði kaydýrma satýrý
+DLG_TAB_GENERAL_AUTOSCROLL_ONLY_IN_BOTTOM_LINE=Yalnýzca alt satýrda &otomatik kaydýr
+DLG_TAB_GENERAL_CLEAR_ON_RESIZE=&Pencere yeniden boyutlandýrýldýðýnda ekraný temizle
+DLG_TAB_GENERAL_CURSOR_CHANGE_IME=&IME durumu ile imleç þeklini deðiþtir
+DLG_TAB_GENERAL_LIST_HIDDEN_FONTS=Yazý tipi penceresinde &gizli yazý tiplerini listele
+DLG_TAB_GENERAL_TITLEFMT_GROUP=Baþlýk biçimi
+DLG_TAB_GENERAL_TITLEFMT_DISPHOSTNAME=&Ana bilgisayar/port adýný göster
+DLG_TAB_GENERAL_TITLEFMT_DISPSESSION=Oturum &numarasýný göster
+DLG_TAB_GENERAL_TITLEFMT_DISPVTTEK=&VT/TEK göster
+DLG_TAB_GENERAL_TITLEFMT_SWAPHOSTTITLE=Ana bilgisayar ve &baþlýk konumunu deðiþtir
+DLG_TAB_GENERAL_TITLEFMT_DISPTCPPORT=TCP &port numarasýný göster
+DLG_TAB_GENERAL_TITLEFMT_DISPSERIALSPEED=Seri port &hýzýný göster
+DLG_TAB_GENERAL_NOTIFICATION_TITLE=Bildirim
+DLG_TAB_GENERAL_NOTIFIY_SOUND=&Bildirim sesi
+DLG_TAB_GENERAL_NOTIFICATION_TEST_NOTIFY=&Bildirim Testi
+DLG_TAB_GENERAL_NOTIFICATION_TEST_MESSAGE=Þimdi simge bildirim alanýnda (görev çubuðu) görüntüleniyor,\n ve Windows bildirim ayarýndan açýlýp kapatýlabilir.
+DLG_TAB_GENERAL_NOTIFICATION_TEST_TRAY=&Tepsi Testi
+
+DLG_TAB_SEQUENCE_ACCEPT_MOUSE_EVENT_TRACKING=&Fare olay izleme isteðini kabul et
+DLG_TAB_SEQUENCE_DISABLE_MOUSE_TRACKING_CTRL=Kontrol tuþuna basýldýðýnda fare olay izlemeyi &devre dýþý býrak
+DLG_TAB_SEQUENCE_ACCEPT_TITLE_CHANGING=Pencere &baþlýk deðiþikliði isteðini kabul et
+DLG_TAB_SEQUENCE_ACCEPT_TITLE_CHANGING_OFF=kapalý
+DLG_TAB_SEQUENCE_ACCEPT_TITLE_CHANGING_OVERWRITE=üzerine yaz
+DLG_TAB_SEQUENCE_ACCEPT_TITLE_CHANGING_AHEAD=önce
+DLG_TAB_SEQUENCE_ACCEPT_TITLE_CHANGING_LAST=son
+DLG_TAB_SEQUENCE_CURSOR_CTRL=&Ýmleç kontrol dizisi
+DLG_TAB_SEQUENCE_WINDOW_CTRL=&Pencere kontrol dizisi
+DLG_TAB_SEQUENCE_WINDOW_REPORT=Pencere &rapor dizisi
+DLG_TAB_SEQUENCE_TITLE_REPORT=Pencere b&aþlýk raporu
+DLG_TAB_SEQUENCE_TITLE_REPORT_IGNORE=yoksay
+DLG_TAB_SEQUENCE_TITLE_REPORT_ACCEPT=kabul et
+DLG_TAB_SEQUENCE_TITLE_REPORT_EMPTY=boþ
+DLG_TAB_SEQUENCE_CLIPBOARD_ACCESS=Uzaktan &pano eriþimi
+DLG_TAB_SEQUENCE_CLIPBOARD_ACCESS_OFF=kapalý
+DLG_TAB_SEQUENCE_CLIPBOARD_ACCESS_ON=oku/yaz
+DLG_TAB_SEQUENCE_CLIPBOARD_ACCESS_READ=sadece oku
+DLG_TAB_SEQUENCE_CLIPBOARD_ACCESS_WRITE=sadece yaz
+DLG_TAB_SEQUENCE_CLIPBOARD_NOTIFY=Uzaktan &pano eriþimini bildir
+DLG_TAB_SEQUENCE_ACCEPT_CLEAR_SBUFF=Uzaktan &kaydýrma tamponunu temizlemeyi kabul et
+DLG_TAB_SEQUENCE_PRINT_START=Yazdýrma baþlatma dizisini &devre dýþý býrak
+DLG_TAB_SEQUENCE_BEEP_LABEL=&Bip
+DLG_TAB_SEQUENCE_BEEP_DISABLE=devre dýþý
+DLG_TAB_SEQUENCE_BEEP_SOUND=ses
+DLG_TAB_SEQUENCE_BEEP_VISUALBELL=görsel zil
+
+DLG_TAB_COPYPASTE_CONTINUE=Devam eden &satýr kopyalamayý etkinleþtir
+DLG_TAB_COPYPASTE_MOUSEPASTE=Fare &sað tuþ yapýþtýrmayý devre dýþý býrak
+DLG_TAB_COPYPASTE_CONFIRMPASTE=Fare &sað tuþ yapýþtýrmayý onayla
+DLG_TAB_COPYPASTE_MOUSEPASTEM=Fare &M tuþu yapýþtýrmayý devre dýþý býrak
+DLG_TAB_COPYPASTE_SELECTLBUTTON=Yalnýzca &sol tuþ ile seç
+DLG_TAB_COPYPASTE_TRIM_TRAILING_NL=Yapýþtýrýrken &sondaki yeni satýr karakterini kýrp
+DLG_TAB_COPYPASTE_CONFIRM_CHANGE_PASTE=Deðiþikliði &yapýþtýrmayý onayla
+DLG_TAB_COPYPASTE_STRINGFILE=&Dize dosyasý
+DLG_TAB_COPYPASTE_DELIMITER=Ayý&raç karakterler
+DLG_TAB_COPYPASTE_PASTEDELAY=Satýr baþýna &yapýþtýrma gecikmesi
+DLG_TAB_COPYPASTE_PASTEDELAY2=ms
+DLG_TAB_COPYPASTE_SELECT_ON_ACTIVATE=Fare ile pencere etkinleþtirildiðinde metin seçimini &etkinleþtir
+DLG_TAB_COPYPASTE_AUTO_TEXT_COPY=Metin seçildiðinde otomatik olarak Windows panosuna &kopyala
+
+DLG_TAB_VISUAL_ALPHA=Pencere Opaklýðý
+DLG_TAB_VISUAL_ALPHA_ACTIVE=&Aktif
+DLG_TAB_VISUAL_ALPHA_INACTIVE=&Pasif
+DLG_TAB_VISUAL_MOUSE=&Fare imleci
+DLG_TAB_VISUAL_FONT_QUALITY=&Yazý tipi kalitesi
+DLG_TAB_VISUAL_FONT_QUALITY_DEFAULT=Varsayýlan
+DLG_TAB_VISUAL_FONT_QUALITY_NONANTIALIASED=Antialiasing Yok
+DLG_TAB_VISUAL_FONT_QUALITY_ANTIALIASED=Antialiasing
+DLG_TAB_VISUAL_FONT_QUALITY_CLEARTYPE=ClearType
+DLG_TAB_VISUAL_ANSICOLOR=AN&SI rengi
+DLG_TAB_VISUAL_RED=&Kýrmýzý
+DLG_TAB_VISUAL_GREEN=&Yeþil
+DLG_TAB_VISUAL_BLUE=&Mavi
+DLG_TAB_VISUAL_CORNER_DONT_ROUND=Pencere köþeleri yuvarlatýlmasýn
+DLG_TAB_VISUAL_BOLD_COLOR=Kalýn &özellik rengini etkinleþtir
+DLG_TAB_VISUAL_BOLD_FONT=Kalýn &özellik yazý tipini etkinleþtir
+DLG_TAB_VISUAL_BLINK=Yanýp &sönme özelliðini etkinleþtir
+DLG_TAB_VISUAL_REVERSE=Ters &özellik rengini etkinleþtir
+DLG_TAB_VISUAL_UNDERLINE_COLOR=Altý çizili özellik rengini etkinleþtir
+DLG_TAB_VISUAL_UNDERLINE_FONT=Altý çizili özellik yazý tipini etkinleþtir
+DLG_TAB_VISUAL_URL_COLOR=&URL özelliði rengini etkinleþtir
+DLG_TAB_VISUAL_URL_FONT=&URL özelliði yazý tipini etkinleþtir
+DLG_TAB_VISUAL_ANSI=A&NSI rengini etkinleþtir
+DLG_TAB_VISUAL_FAST_SIZE_MOVE=Pencere taþýnýrken veya yeniden boyutlandýrýlýrken temayý devre dýþý býrak
+DLG_TAB_VISUAL_THEME_STARTUP_NO_USE=kullanma
+DLG_TAB_VISUAL_THEME_STARTUP_FIXED_THEME=sabit tema dosyasý
+DLG_TAB_VISUAL_THEME_STARTUP_RANDOM_THEME=rasgele tema dosyasý
+
+DLG_TAB_LOG_EDITOR=Kayýt düzenleyicisini görüntüle
+DLG_TAB_LOG_EDITOR_EXE=&exe dosyasý
+DLG_TAB_LOG_EDITOR_ARG=a&rgümanlar
+DLG_TAB_LOG_FILENAME=Varsayýlan kayýt &dosya adý(strftime formatý)
+DLG_TAB_LOG_FILEPATH=Varsayýlan kayýt &kaydetme klasörü
+DLG_TAB_LOG_AUTOSTART=Kayýt &otomatik baþlatýlsýn
+DLG_TAB_LOG_ROTATE=&Kayýt Döndür
+DLG_TAB_LOG_ROTATE_SIZE_TEXT=&Boyut
+DLG_TAB_LOG_ROTATESTEP=&Döndür
+
+
+DLG_TAB_CYGWIN_PATH=Cygwin kurulum &yolu
+
+DLG_TAB_FONT_VTWINFONT=&VTWindow Yazý Tipi
+DLG_TAB_FONT_BTN_SELECT=&Seç...
+DLG_TAB_FONT_VTFONT_TITLE=Çizim için API
+DLG_TAB_FONT_DLGFONT=&Dialog Yazý Tipi
+DLG_TAB_FONT_TEKFONT=TEK Yazý Tipi
+DLG_TAB_FONT_BTN_DEFAULT=&Varsayýlan
+DLG_TAB_FONT_CODEPAGE_LABEL=Görüntü karakter dönüþümü için &kod sayfasý(Auto when 0, %d)
+DLG_TAB_FONT_LIST_PRO_FONTS_VT=Yazý tipi penceresinde &orantýlý yazý tiplerini listele
+DLG_TAB_FONT_LIST_PRO_FONTS_DLG=Yazý tipi penceresinde p&orantýlý yazý tiplerini listele
+DLG_TAB_FONT_CHARACTER_SPACE=karakter aralýðý
+DLG_TAB_FONT_RESIZED_FONT=Hücre geniþliðine sýðacak þekilde yeniden boyutlandýrýlmýþ yazý tipini &çiz
+MSG_TOOLTIP_EDITERR_TITLE1=Kabul Edilemez Karakter
+MSG_TOOLTIP_EDITERR_TEXT1=Yalnýzca pozitif ve negatif tamsayýlar kabul edilir.
+DLG_TAB_FONT_FOLDER=Open Font Settings/Font Folder (%s)
+
+DLG_COMMENT_TITLE=Kayda Yorum
+
+DLG_BROADCAST_TITLE=Tera Term: Komut Yayýný
+DLG_BROADCAST_HISTORY=Geçmiþ
+DLG_BROADCAST_PARENTONLY=Yalnýzca bu iþleme gönder
+DLG_BROADCAST_ENTER=Enter tuþu
+DLG_BROADCAST_SUBMIT=Gönder
+DLG_BROADCAST_CLOSE=Kapat
+DLG_BROADCAST_REALTIME=Gerçek zamanlý mod
+DLG_BROADCAST_HELP=Yardým
+CMENU_BROADCAST_FOREGROUND=Seçili pencereyi öne getir
+CMENU_BROADCAST_MINIMIZE=Seçili pencereyi küçült
+CMENU_BROADCAST_REFRESH=Pencere listesini yenile
+CMENU_BROADCAST_SELECT_ALL=Hepsini seç
+CMENU_BROADCAST_UNSELECT_ALL=Seçimi kaldýr
+CMENU_BROADCAST_INVERSE=Seçimi tersine çevir
+
+DLG_PRNABORT_PRINTING=Yazdýrýlýyor
+
+DLG_PROT_FILENAME=Dosya adý:
+DLG_PROT_PROTO=Protokol:
+DLG_PROT_PACKET=Paketi#:
+DLG_PROT_TRANS=Aktarýlan bayt:
+DLG_PROT_ELAPSED=Geçen süre:
+
+DLG_FILETRANS_TITLE=Dosya Gönder
+DLG_FILETRANS_FILENAME=Dosya adý:
+DLG_FILETRANS_FULLPATH=Tam yol:
+DLG_FILETRANS_TRNAS=Aktarýlan bayt:
+DLG_FILETRANS_ELAPSED=Geçen süre:
+DLG_FILETRANS_START=&Baþlat
+DLG_FILETRANS_PAUSE=&Duraklat
+DLG_FILETRANS_CLOSE=Kapat
+
+DLG_SETUPDIR_TITLE=Tera Term: Ayar dizini
+DLG_SETUPDIR_INIFILE=Tera Term Yapýlandýrma Dosyasý
+DLG_SETUPDIR_KEYBOARDFILE=Klavye Yapýlandýrma Dosyasý
+DLG_SETUPDIR_CYGTERMFILE=CygTerm Yapýlandýrma Dosyasý
+DLG_SETUPDIR_KNOWNHOSTSFILE=SSH known_hosts Dosyasý
+DLG_SETUPDIR_NOFILE_ERROR=Dosya mevcut deðil.(%d)
+DLG_SETUPDIR_OPENFILE_ERROR=Dosya açýlamýyor.(%d)
+
+DLG_DANDD_TITLE=Tera Term: Dosya Sürükle ve Býrak
+DLG_DANDD_TEXT=Dosya içeriðini göndermek istediðinizden emin misiniz?
+DLG_DANDD_SCP_RADIO=&SCP
+DLG_DANDD_SENDFILE_RADIO=Dosya &Gönder (Dosya içeriðini yapýþtýr)
+DLG_DANDD_PASTE_RADIO=&Dosya Adý Yapýþtýr
+DLG_DANDD_SCP_DEST_LABEL=he&def:
+DLG_DANDD_SCP_DEST_NOTE=hedef boþsa ana dizindir
+DLG_DANDD_SEND_BINARY_CHECK=&Ýkili
+DLG_DANDD_PASTE_ESCAPE_CHECK=&Kaçýþ
+DLG_DANDD_PASTE_SPACE_RADIO=Ayý&raç Boþluk
+DLG_DANDD_PASTE_NEWLINE_RADIO=Ayýraç &Yeni Satýr
+DLG_DANDD_NEXTFILES=&Sonraki %d dosya için de yap
+DLG_DANDD_SAME_NEEXTDROP=Ayný iþlemi &yap, sonraki býrakma
+DLG_DANDD_DONTSHOW_NEEXTDROP=Bu iletiþim kutusunu &gösterme, sonraki býrakma
+DLG_DANDD_NOTE=CTRL ile býrakýldýðýnda bu iletiþim kutusu görüntülenir
+
+TOOLTIP_TITLEBAR_OPACITY=Opaklýk %.1f %%
+
+; commonlib.c
+MSG_WINSOCK_ERROR=Winsock kullanýlamýyor
+MSG_INVALID_HOST_ERROR=Geçersiz ana bilgisayar
+MSG_CANTOPEN_ERROR=%s açýlamýyor. (0x%08x)
+MSG_CANTOPEN_ERROR_NOTFOUND=%s açýlamýyor. Bulunamadý.
+MSG_CANTOPEN_ERROR_DENIED=%s açýlamýyor. Eriþim reddedildi.
+MSG_CANTOPEN_ERROR_PIPEBUSY=%s açýlamýyor. Kanal meþgul.
+MSG_CANTOPEN_FILE_ERROR=Dosya açýlamýyor
+MSG_COMM_REFUSE_ERROR=Baðlantý reddedildi
+MSG_COMM_REACH_ERROR=Aða eriþilemiyor
+MSG_COMM_TIMEOUT_ERROR=Baðlantý zaman aþýmýna uðradý
+MSG_COMM_CONNECT_ERROR=Ana bilgisayara baðlanýlamýyor
+MSG_CREATE_THREAD_ERROR=Thread oluþturulamýyor
+
+; ttpdlg
+; ttdlg.c
+DLG_ABOUT_TITLE=Tera Term Hakkýnda
+
+DLG_SELECT_DIR_TITLE=Yeni dizin seç
+
+DLG_GEN_TITLE=Tera Term: Genel ayar
+DLG_GEN_PORT=Yeni &baðlantý varsayýlaný
+DLG_GEN_PORT_TCPIP=TCP/IP
+DLG_GEN_PORT_SERIAL=Seri
+DLG_GEN_LANG_UI=UI &Dili:
+
+DLG_HOST_TITLE=Tera Term: Yeni baðlantý
+DLG_HOST_TCPIPHOST=H&ost:
+DLG_HOST_TCPIPPORT=TCP &port#:
+DLG_HOST_TCPIPPROTOCOL=IP versiyo&nu:
+DLG_HOST_SERIAL=&Seri
+DLG_HOST_SERIALPORT=Po&rt:
+
+DLG_KEYB_TITLE=Klavye
+DLG_KEYB_TRANSMIT=DEL iletimi:
+DLG_KEYB_BS=&Geri tuþu
+DLG_KEYB_DEL=&Sil tuþu
+DLG_KEYB_KEYB=&Klavye:
+DLG_KEYB_META=&Meta tuþu:
+DLG_KEYB_META_OFF=kapalý
+DLG_KEYB_META_ON=açýk
+DLG_KEYB_META_LEFT=sol
+DLG_KEYB_META_RIGHT=sað
+DLG_KEYB_DISABLE=Devre dýþý mod:
+DLG_KEYB_APPKEY=&Uygulama Tuþ Takýmý
+DLG_KEYB_APPCUR=Uygulama &Ýmleci
+
+DLG_SERIAL_TITLE=Seri port
+DLG_SERIAL_PORT=&Port:
+DLG_SERIAL_BAUD=Hý&z:
+DLG_SERIAL_DATA=&Veri:
+DLG_SERIAL_PARITY=P&arity:
+DLG_SERIAL_STOP=&Durak bitleri:
+DLG_SERIAL_FLOW=&Akýþ kontrolü:
+DLG_SERIAL_DELAY=Ýletim gecikmesi
+DLG_SERIAL_DELAYCHAR=ms/&karakter
+DLG_SERIAL_DELAYLINE=ms/&satýr
+DLG_SERIAL_OK_CONNECTION=&Yeni pencerede baðlan
+DLG_SERIAL_OK_OPEN=&Yeni aç
+DLG_SERIAL_OK_CLOSEOPEN=Kapat ve &yeni aç
+DLG_SERIAL_OK_RESET=&Yeni ayar
+
+; edit history
+DLG_TCPIP_ADD=&Ekle
+DLG_TCPIP_UP=&Yukarý
+DLG_TCPIP_REMOVE=&Sil
+DLG_TCPIP_DOWN=&Aþaðý
+
+; TCP/IP tab
+DLG_TCPIP_TITLE=TCP/IP
+DLG_TCPIP_HOSTLIST=Ana bilgisayar &listesi
+DLG_TCPIP_HISTORYTITLE=Geçmiþ
+DLG_TCPIP_HISTORY=Yeni baðlantýda ana bilgisayar l&istesi ekle
+DLG_TCPIP_EDITHISTORY=Ana bilgisayar listesini düzenle
+DLG_TCPIP_TELNET=T&elnet
+DLG_TCPIP_PORT=&Port#:
+DLG_TCPIP_KEEPALIVE=Telnet'te &canlý tut
+DLG_TCPIP_KEEPALIVE_SEC=Saniye
+DLG_TCPIP_AUTOCLOSE=Otomatik &pencere kapatma
+DLG_TCPIP_TERMTYPE=&Terminal türü:
+
+DLG_TERM_TITLE=Terminal
+DLG_TERM_WIDTHLABEL=&Terminal boyutu
+DLG_TERM_ISWIN=Terminal &boyutu = pencere boyutu
+DLG_TERM_RESIZE=Otomatik &pencere yeniden boyutlandýrma
+DLG_TERM_NEWLINE=Yeni satýr
+DLG_TERM_CRRCV=&Al:
+DLG_TERM_CRSEND=Ýle&t:
+DLG_TERM_ID=Terminal &ID:
+DLG_TERM_LOCALECHO=&Yerel yanký
+DLG_TERM_ANSBACK=&Geri yanýt:
+DLG_TERM_AUTOSWITCH=O&tomatik geçiþ (VT<->TEK)
+DLG_TERM_KANJI=Kodlama (a&l)
+DLG_TERM_KANA=&Yarý geniþlik kana
+DLG_TERM_KANJISEND=Kodlama (gön&der)
+DLG_TERM_KANASEND=Yarý ge&niþlik kana
+DLG_TERM_KIN=Kanji-&giriþ:
+DLG_TERM_KOUT=Kanji-&çýkýþ:
+DLG_CODING_DECSP_UNICODE_TO_DEC=Unicode'dan DEC Özel Grafiklere Eþleme
+DLG_CODING_UNICODE_TO_DEC_BOXDRAWING=Kutu çizim karakteri (U+2500-U+257F)
+DLG_CODING_UNICODE_TO_DEC_PUNCTUATION=Noktalama, Blok Öðeleri, Gölge
+DLG_CODING_UNICODE_TO_DEC_MIDDLEDOT=Orta noktalar (U+00B7,U+2024,U+2219)
+DLG_CODING_DECSP_DEC_TO_UNICODE=DEC Özel Grafiklerden Unicode'a Eþleme
+DLG_CODING_DECSP_DO_NOT_MAP=Eþleme yapma
+DLG_ENCODING_CHAR_WIDTH_PER_CHAR=Override character width per character
+DLG_WIN_TITLE=Pencere
+DLG_WIN_TEK_TITLE=Pencere(TEK)
+DLG_WIN_TITLELABEL=&Baþlýk:
+DLG_WIN_CURSOR=Ýmleç þekli
+DLG_WIN_BLOCK=B&lok
+DLG_WIN_VERT=&Dikey çizgi
+DLG_WIN_HORZ=Y&atay çizgi
+DLG_WIN_BOLDFONT=Ka&lýn yazý tipini etkinleþtir
+DLG_WIN_HIDETITLE=Baþlýk çubuðunu &gizle
+DLG_WIN_NO_FRAME=Ç&erçeve yok
+DLG_WIN_HIDEMENU=&Menü çubuðunu gizle
+DLG_WIN_COLOREMU=&Renk emülasyonu
+DLG_WIN_PCBOLD16=&16 Renk (PC stili)
+DLG_WIN_AIXTERM16=1&6 Renk (aixterm stili)
+DLG_WIN_XTERM256=&256 Renk (xterm stili)
+DLG_WIN_SCROLL1=&Kaydýrma tamponu:
+DLG_WIN_SCROLL3=sa&týr
+DLG_WIN_COLOR=Renk
+DLG_WIN_TEXT=Me&tin
+DLG_WIN_BG=A&rka plan
+DLG_WIN_ATTRIB=&Özellik
+DLG_WIN_SWAP_COLORS=Renkleri &deðiþtir
+DLG_WIN_R=&R:
+DLG_WIN_G=&G:
+DLG_WIN_B=&B:
+DLG_WIN_ALWAYSBG=Her zaman Normal metnin arkaplanýný &kullan
+DLG_WIN_NORMAL=Normal
+DLG_WIN_BOLD=Kalýn
+DLG_WIN_BLINK=Yanýp sön
+DLG_WIN_REVERSEATTR=Ters
+DLG_WIN_URL=URL
+DLG_WIN_UNDERLINE=Altý çizili
+
+DLG_CHOOSEFONT_STC6="Yazý tipi stili" seçimi gerçek yazý tipi görünümünü etkilemez.
+
+DLG_WINLIST_TITLE=Tera Term: Pencere listesi
+DLG_WINLIST_LABEL=&Pencere:
+DLG_WINLIST_OPEN=&Aç
+DLG_WINLIST_CLOSEWIN=Pencereyi &kapat
+
+MSG_FIND_DIR_ERROR=Dizin bulunamýyor
+
+; ttpfile
+; ttfile.c
+DLG_FOPT_TITLE=Kayýt
+DLG_FOPT_FILENAME_TITLE=&Dosya adý (dosyayý bu iletiþim kutusuna sürükleyin)
+DLG_FOPT_APPEND_LABEL=Yazma modu
+DLG_FOPT_NEW_OVERWRITE=&Yeni / Üzerine yaz
+DLG_FOPT_APPEND=&Ekle
+DLG_FOPT_BINARY_LABEL=Metin veya Ýkili mod
+DLG_FOPT_TEXT=Me&tin
+DLG_FOPT_BINARY=Ýki&li
+DLG_FOPT_BOM=&BOM
+DLG_FOPT_PLAIN=&Düz metin
+DLG_FOPT_TIMESTAMP=&Zaman damgasý
+DLG_FOPT_HIDEDIALOG=Ýletiþim kutusunu &gizle
+DLG_FOPT_ALLBUFFINFIRST=Ekran tamponunu da&hil et
+DLG_FOPT_TIMESTAMP_LOCAL=Yerel Zaman
+DLG_FOPT_TIMESTAMP_UTC=UTC
+DLG_FOPT_TIMESTAMP_ELAPSED_LOGGING=Geçen Süre (Kayýt)
+DLG_FOPT_TIMESTAMP_ELAPSED_CONNECTION=Geçen Süre (Baðlantý)
+
+DLG_XOPT=Seçenek
+DLG_XOPT_CHECKSUM=Kontrol &toplamý
+DLG_XOPT_CRC=&CRC
+DLG_XOPT_1K=1&K
+DLG_XOPT_BINARY=Ýki&li
+
+FILEDLG_KEYBOARD_FILTER=klavye kurulum dosyalarý (*.cnf)\0*.cnf\0\0
+FILEDLG_SETUP_FILTER=kurulum dosyalarý (*.ini)\0*.ini\0\0
+FILEDLG_SAVE_SETUP_TITLE=Tera Term: Kurulum kaydet
+FILEDLG_RESTORE_SETUP_TITLE=Tera Term: Kurulum geri yükle
+FILEDLG_LOAD_KEYMAP_TITLE=Tera Term: Tuþ haritasý yükle
+FILEDLG_ALL_FILTER=Tümü(*.*)\0*.*\0\0
+FILEDLG_USER_FILTER_NAME=Kullanýcý tanýmlý
+
+DLG_GETFN_TITLE=Tera Term: Kermit Al
+DLG_GETFN_FILENAME=&Dosya adý:
+
+; ttftypes.h
+FILEDLG_TRANS_TITLE_LOG=Logging
+FILEDLG_TRANS_TITLE_SENDFILE=Sending file
+FILEDLG_TRANS_TITLE_KMTRCV=Kermit Al
+FILEDLG_TRANS_TITLE_KMTGET=Kermit Al
+FILEDLG_TRANS_TITLE_KMTSEND=Kermit Gönder
+FILEDLG_TRANS_TITLE_KMTFIN=Kermit Bitir
+FILEDLG_TRANS_TITLE_XRCV=XMODEM Al
+FILEDLG_TRANS_TITLE_XSEND=XMODEM Gönder
+FILEDLG_TRANS_TITLE_YRCV=YMODEM Al
+FILEDLG_TRANS_TITLE_YSEND=YMODEM Gönder
+FILEDLG_TRANS_TITLE_ZRCV=ZMODEM Al
+FILEDLG_TRANS_TITLE_ZSEND=ZMODEM Gönder
+FILEDLG_TRANS_TITLE_BPRCV=B-Plus Al
+FILEDLG_TRANS_TITLE_BPSEND=B-Plus Gönder
+FILEDLG_TRANS_TITLE_QVRCV=Quick-VAN Al
+FILEDLG_TRANS_TITLE_QVSEND=Quick-VAN Gönder
+FILEDLG_TRANS_TITLE_RECVFILE=Dosya al
+FILEDLG_TRANS_TITLE_RAWRCV=Dosya alýnýyor
+
+; dlg clipboard
+DLG_CLIPBOARD_TITLE=Tera Term: Pano onayý
+
+; ttptek
+; tttek.c
+MSG_TEK_PRINT_ERROR=Yazýcý grafikleri desteklemiyor
+
+; ttpmacro
+FILEDLG_OPEN_MACRO_TITLE=MAKRO: Makro aç
+FILEDLG_OPEN_MACRO_FILTER=Makro dosyalarý (*.ttl)\0*.ttl\0\0
+
+BTN_PAUSE=&Duraklat
+BTN_START=&Baþlat
+BTN_END=&Bitir
+BTN_YES=&Evet
+BTN_NO=&Hayýr
+BTN_STOP=Makroyu &durdur
+BTN_CONTINUE=&Devam et
+
+MSG_MACRO_CONF=MAKRO: onay
+MSG_MACRO_HALT_SCRIPT=Bu makro betiðini durdurmak istediðinizden emin misiniz?
+
+; common
+MSG_ERROR=HATA
+MSG_TT_ERROR=Tera Term: Hata
+MSG_TT_NOTICE=Tera Term: Bildirim
+MSG_TT_TAKE_EFFECT=Bu seçenek bir sonraki oturum baþladýðýnda etkili olur.
+
+BTN_OK=OK
+BTN_CANCEL=Ýptal
+BTN_CLOSE=Kapat
+BTN_HELP=&Yardým
+BTN_DEFAULT=Varsayýlan
+
+; help
+HELPFILE=teraterm.chm
+MSG_OPENHELP_ERROR=HTML yardým dosyasý açýlamýyor(%s).
+
+; ttset
+MSG_INI_ERROR=Tera Term: Hata
+MSG_INI_WRITE_ERROR=ini dosyasý yazýlamýyor.
+
+; sendfile
+DLG_SENDFILE_READING_METHOD_TITLE=Dosya okuma yöntemi
+DLG_SENDFILE_READING_METHOD_BULK=&Toplu okuma
+DLG_SENDFILE_READING_METHOD_SEQUENTIAL=&Sýralý okuma
+DLG_SENDFILE_READING_METOHD_TOOLTIP=Toplu okuma:\n- Dosyadan okurken gönder.\n- Metin dosyasý ACP kodlamasý olarak okunur ve otomatik olarak belirlenmez.\nSýralý okuma:\n- Dosya belleðe okunur ve sonra gönderilir.\n- Metin dosyalarýnýn kodlamasý otomatik olarak belirlenir.\n
+DLG_SENDFILE_BINARY=&Ýkili
+
+; receivefile
+DLG_RECVFILE_FILENAME_TITLE=&Dosya adý (bu iletiþim kutusuna dosyayý sürükleyin)
+DLG_RECVFILE_BINARY=&Ýkili
+DLG_RECVFILE_AUTOSTOP_LABEL=&Otomatik durdurma bekleme süresi (sn)
+
+; theme
+DLG_THEME_PREVIEW_FILE_TITLE=Önizleme/Dosya
+DLG_THEME_PREVIEW_FILE_LOAD=Yükle
+DLG_THEME_PREVIEW_FILE_SAVE=Kaydet
+
+DLG_THEME_BG_TITLE=Arkaplan
+DLG_THEME_BG_IMAGE=Arkaplan resmi
+
+DLG_THEME_BG_ALPHA_TITLE=Arkaplan resmi þeffaflýðý
+DLG_THEME_BG_ALPHA_TEXT_BACK_ALPHA_TITLE=Normal arkaplan þeffaflýðý (Saða doðru opak):
+DLG_THEME_BG_ALPHA_REVERSE_TEXT_BACK_ALPHA_TITLE=Ters arkaplan þeffaflýðý:
+DLG_THEME_BG_ALPHA_OTHER_BACK_TITLE=Diðer arkaplan þeffaflýðý:
+
+DLG_THEME_COLOR_TITLE=Metin rengi
+
+[TTSSH]
+; font
+DLG_SYSTEM_FONT=System,14,0
+DLG_TAHOMA_FONT=Tahoma,8,0
+DLG_ABOUT_FONT=Courier New,8,0
+
+; menu
+MENU_ABOUT=&TTSSH Hakkýnda...
+MENU_SSH=SS&H...
+MENU_SSH_AUTH=SSH &Kimlik Doðrulama...
+MENU_SSH_FORWARD=SSH Y&önlendirme...
+MENU_SSH_KEYGEN=SSH Anahtar Ü&reteci...
+
+; dlg about
+DLG_ABOUT_TITLE=TTSSH Hakkýnda
+DLG_ABOUT_FP_HASH_ALGORITHM=Parmak izi karma algoritmasý:
+DLG_ABOUT_SERVERID=Sunucu ID:
+DLG_ABOUT_PROTOCOL=Kullanýlan protokol:
+DLG_ABOUT_ENCRYPTION=Þifreleme:
+DLG_ABOUT_SERVERKEY=Sunucu anahtarlarý:
+DLG_ABOUT_KEXKEY=Anahtar deðiþim anahtarlarý:
+DLG_ABOUT_AUTH=Kimlik Doðrulama:
+DLG_ABOUT_COMP=Sýkýþtýrma:
+DLG_ABOUT_CLIENTID=Ýstemci ID:
+DLG_ABOUT_KEX=Anahtar deðiþim algoritmasý:
+DLG_ABOUT_HOSTKEY=Ana Bilgisayar Anahtarý:
+DLG_ABOUT_MAC=MAC algoritmasý:
+DLG_ABOUT_MAC_INFO=sunucuya %s, sunucudan %s
+DLG_ABOUT_COMPDELAY=Gecikmeli Sýkýþtýrma:
+DLG_ABOUT_CIPHER_INFO=sunucuya %s, sunucudan %s
+DLG_ABOUT_KEY_INFO=%d-bit sunucu anahtarý, %d-bit ana bilgisayar anahtarý
+DLG_ABOUT_KEY_INFO2=%d-bit istemci anahtarý, %d-bit sunucu anahtarý
+DLG_ABOUT_KEY_NONE=Yok
+DLG_ABOUT_COMP_INFO=seviye %d; oran %.1f (%ld:%ld)
+DLG_ABOUT_COMP_INFO2=seviye %d
+DLG_ABOUT_COMP_NONE=yok
+DLG_ABOUT_COMP_UPDOWN=Yukarý %s; Aþaðý %s
+DLG_ABOUT_KEXPARAM=Key exchange param:
+DLG_ABOUT_KEXPARAM_DH=%d-bit DH group
+DLG_ABOUT_KEXPARAM_NISTP=NIST P-%d (%d-bit) elliptic curve
+DLG_ABOUT_KEXPARAM_X25519=Curve25519 (255-bit) elliptic curve
+DLG_ABOUT_KEXPARAM_SNTRUP761X25519=Curve25519 (255-bit) elliptic curve, SNTRUP761 (761-degree polynomial)
+DLG_ABOUT_KEXPARAM_MLKEM768X25519=Curve25519 (255-bit) elliptic curve, ML-KEM-768 (768-dimensional lattice)
+DLG_ABOUT_AUTH_INFO=Kullanýcý '%s', %s kimlik doðrulama
+DLG_ABOUT_AUTH_INFO2=, %s anahtarý
+DLG_ABOUT_AUTH_INFO3=, %s anahtarý ile %s
+DLG_ABOUT_FINGERPRINT=Ana bilgisayar anahtarýnýn parmak izi:
+
+; dlg auth
+DLG_AUTH_TITLE=SSH Kimlik Doðrulama
+DLG_AUTH_TITLE_FAILED=SSH Kimlik Doðrulamasý Yeniden Deneniyor
+DLG_AUTH_BANNER=%s'e giriþ yapýlýyor
+DLG_AUTH_BANNER2=Kimlik doðrulama gerekli.
+DLG_AUTH_BANNER2_FAILED=Kimlik doðrulama baþarýsýz. Lütfen tekrar deneyin.
+DLG_AUTH_BANNER2_FURTHER=Daha fazla kimlik doðrulama gerekli.
+DLG_AUTH_USERNAME=Kullanýcý &adý:
+DLG_AUTH_USE_DEFAULT_USERNAME=&Varsayýlan kullanýcý adýný kullan
+DLG_AUTH_USE_LOGON_USERNAME=&Giriþ kullanýcý adýný kullan
+DLG_AUTH_PASSWORD=&Parola:
+DLG_AUTH_PASTE_CLIPBOARD=&Panodan yapýþtýr
+DLG_AUTH_CLEAR_CLIPBOARD=Panodan yapýþtýr ve &panoyu temizle
+DLG_AUTH_USE_CONTORL_CHARACTERS=Kontrol karakterlerini &kullan
+DLG_AUTH_SHOW_PASSPHRASE=&Parolayý göster
+DLG_AUTH_REMEMBER_PASSWORD=Parolayý &bellekte hatýrla
+DLG_AUTH_FWDAGENT=Agent'ý &yönlendir
+DLG_AUTH_METHOD=Kimlik doðrulama yöntemleri
+DLG_AUTH_METHOD_PASSWORD=Giriþ için &düz parola kullan
+DLG_AUTH_METHOD_RSA=Giriþ için &RSA/DSA/ECDSA/ED25519 anahtarý kullan
+DLG_AUTH_METHOD_RHOST=Giriþ için r&hosts kullan (SSH1)
+DLG_AUTH_METHOD_CHALLENGE1=Giriþ için challenge/response(&TIS) kullan
+DLG_AUTH_METHOD_CHALLENGE2=Giriþ için keyboard-&interactive kullan
+DLG_AUTH_METHOD_PAGEANT=Giriþ için P&ageant kullan
+DLG_AUTH_PRIVATEKEY=Özel &anahtar dosyasý:
+DLG_AUTH_LOCALUSER=Yerel &kullanýcý adý:
+DLG_AUTH_HOST_PRIVATEKEY=Ana bilgisayar özel anahtarý &dosyasý:
+DLG_AUTH_TIP_CONTROL_CODE=kontrol karakteri girildi
+DLG_AUTH_TIP_PASTE_KEY=Panodan yapýþtýrmak için Shift + Insert kullanýn
+MSG_PAGEANT_NOTFOUND=Pageant bulunamýyor.
+MSG_PAGEANT_NOKEY=Pageant'ta geçerli anahtar yok.
+
+; dlg auth setup
+DLG_AUTHSETUP_TITLE=TTSSH: Kimlik Doðrulama Kurulumu
+DLG_AUTHSETUP_BANNER=Kimlik doðrulama için varsayýlanlarý seçin:
+DLG_AUTHSETUP_USERNAME=Kullanýcý adý
+DLG_AUTHSETUP_NO_USERNAME=Kullanýcý adý &girme
+DLG_AUTHSETUP_DEFAULT_USERNAME=Varsayýlan kullanýcý adýný k&ullan
+DLG_AUTHSETUP_LOGON_USERNAME=Giriþ kullanýcý adýný kul&lan
+DLG_AUTHSETUP_LOGON_USERNAME_TEXT=Mevcut kullanýcý adý "%s"
+DLG_AUTHSETUP_METHOD=Kimlik doðrulama yöntemleri
+DLG_AUTHSETUP_METHOD_PASSWORD=Giriþ için &düz parola kullan
+DLG_AUTHSETUP_METHOD_RSA=Giriþ için &RSA/DSA/ECDSA/ED25519 anahtarý kullan
+DLG_AUTHSETUP_METHOD_RHOST=Giriþ için r&hosts kullan (SSH1)
+DLG_AUTHSETUP_METHOD_CHALLENGE=SSH1:challenge/response(&TIS) / SSH2:keyboard-interactive giriþ için kullan
+DLG_AUTHSETUP_METHOD_PAGEANT=P&ageant kullan
+DLG_AUTHSETUP_PRIVATEKEY=Özel &anahtar dosyasý:
+DLG_AUTHSETUP_LOCALUSER=Yerel &kullanýcý adý:
+DLG_AUTHSETUP_HOST_PRIVATEKEY=Ana bilgisayar özel anahtarý &dosyasý:
+DLG_AUTHSETUP_CHECKAUTH=&Giriþ öncesi etkinleþtirilmiþ kimlik doðrulama yöntemlerini kontrol et (SSH2)
+
+FILEDLG_OPEN_PRIVATEKEY_TITLE=RSA/DSA/ECDSA/ED25519 özel anahtarý içeren bir dosya seçin
+FILEDLG_OPEN_PRIVATEKEY_FILTER=kimlik dosyalarý\0identity;id_rsa;id_dsa;id_ecdsa;id_ed25519;*.ppk;*.pem\0identity(RSA1)\0identity\0id_rsa(SSH2)\0id_rsa\0id_dsa(SSH2)\0id_dsa\0id_ecdsa(SSH2)\0id_ecdsa\0id_ed25519(SSH2)\0id_ed25519\0PuTTY(*.ppk)\0*.ppk\0PEM dosyalarý(*.pem)\0*.pem\0tümü(*.*)\0*.*\0\0
+MSG_KEYSPECIFY_ERROR=RSA/DSA/ECDSA/ED25519 özel anahtarý içeren bir dosya belirtmelisiniz.
+MSG_READKEY_ERROR=SSH2 özel anahtar dosyasý okuma hatasý\n%s
+MSG_RHOSTS_NOTDEFAULT_ERROR=Rhosts kimlik doðrulamasý muhtemelen baþarýsýz olacak çünkü varsayýlan kimlik doðrulama yöntemi deðildi.\nTTSSH'da Rhosts kimlik doðrulamasýný kullanmak için, TTSSH'ý yeniden baþlatarak\nve baðlanmadan önce Kurulum menüsünden "SSH Kimlik Doðrulamasý..." seçerek varsayýlan olarak ayarlamanýz gerekir.
+MSG_NOAUTHMETHOD_ERROR=Sunucu TTSSH tarafýndan saðlanan kimlik doðrulama seçeneklerinin\nhiçbirini desteklemiyor. Bu baðlantý þimdi kapatýlacak.
+
+; dlg diff key
+DLG_DIFFERENTKEY_TITLE=GÜVENLÝK UYARISI
+DLG_DIFFERENTKEY_WARNING=Bilinen ana bilgisayarlar listenizde "%s" sunucusu için bir giriþ var, ancak baðlandýðýnýz makine bilinen ana bilgisayarlar listenizdekinden FARKLI BÝR ANAHTAR sundu. Düþmanca bir makine sunucu gibi davranmaya çalýþýyor olabilir.
+DLG_DIFFERENTKEY_WARNING2=Bu yeni anahtarý bilinen ana bilgisayarlar listesine deðiþtirmeyi seçip devam ederseniz, bu uyarýyý bir daha almazsýnýz.
+DLG_DIFFERENTKEY_FINGERPRINT=Sunucunun ana bilgisayar anahtarý parmak izi:
+DLG_DIFFERENTKEY_FP_HASH_ALGORITHM=Parmak izi karma algoritmasý:
+DLG_DIFFERENTKEY_REPLACE=&Mevcut anahtarý bu yeni anahtarla deðiþtir
+
+; dlg diff type key
+DLG_DIFFERENTTYPEKEY_TITLE=GÜVENLÝK UYARISI
+DLG_DIFFERENTTYPEKEY_WARNING=Bilinen ana bilgisayarlar listenizde "%s" sunucusu için bir giriþ var, ancak baðlandýðýnýz makine bilinen ana bilgisayarlar listenizdekinden FARKLI TÜR BÝR ANAHTAR sundu. Düþmanca bir makine sunucu gibi davranmaya çalýþýyor olabilir.
+DLG_DIFFERENTTYPEKEY_WARNING2=Bu yeni anahtarý bilinen ana bilgisayarlar listesine eklemeyi seçip devam ederseniz, bu uyarýyý bir daha almazsýnýz.
+DLG_DIFFERENTTYPEKEY_FINGERPRINT=Sunucunun ana bilgisayar anahtarý parmak izi:
+DLG_DIFFERENTTYPEKEY_FP_HASH_ALGORITHM=Parmak izi karma algoritmasý:
+DLG_DIFFERENTTYPEKEY_ADD=&Bu makineyi ve anahtarýný bilinen ana bilgisayarlar listesine ekle
+
+; dlg fwd edit
+DLG_FWD_TITLE=SSH Port Yönlendirme
+DLG_FWD_BANNER=Yönlendirilmiþ port için yön seçin:
+DLG_FWD_LOCAL_PORT=&Yerel portu yönlendir
+DLG_FWD_LOCAL_LISTEN=&dinle
+DLG_FWD_LOCAL_REMOTE=uzak &makineye
+DLG_FWD_LOCAL_REMOTE_PORT=&port
+DLG_FWD_LOCAL_CHECKIDENTITY=Diðer ana bilgisayarlardan baðlantýlarý &kabul et
+DLG_FWD_REMOTE_PORT=&Uzak sunucu portunu yönlendir
+DLG_FWD_REMOTE_LISTEN=di&nle
+DLG_FWD_REMOTE_LOCAL=yerel m&akineye
+DLG_FWD_REMOTE_LOCAL_PORT=p&ort
+DLG_FWD_DYNAMIC_PORT=&Dinamik portu yönlendir
+DLG_FWD_DYNAMIC_LISTEN=di&nle
+
+MSG_SAME_SERVERPORT_ERROR=Ayný sunucu portundan (%d) iki yönlendirme yapamazsýnýz.
+MSG_SAME_LOCALPORT_ERROR=Ayný yerel porttan (%d) iki yönlendirme yapamazsýnýz.
+MSG_UNSPECIFIED_FWD_ERROR1=Bu SSH oturumu baþladýðýnda aþaðýdaki yönlendirmeler belirtilmedi:\n\n
+MSG_UNSPECIFIED_FWD_ERROR2=\nSSH protokolünün bir sýnýrlamasý nedeniyle, bu yönlendirmeler mevcut SSH oturumunda çalýþmayacak.\nBu ayarlarý kaydedip yeni bir SSH oturumu baþlatýrsanýz, yönlendirme çalýþmalýdýr.
+MSG_INVALID_PORT_ERROR=Port "%s" geçerli bir port numarasý deðil.\nListeden bir port adý seçin veya 1 ile 65535 arasýnda bir sayý girin.
+
+; dlg fwd setup
+DLG_FWDSETUP_TITLE=TTSSH: Yönlendirme Kurulumu
+DLG_FWDSETUP_LIST=&Port Yönlendirme
+DLG_FWDSETUP_ADD=&Ekle...
+DLG_FWDSETUP_EDIT=&Düzenle...
+DLG_FWDSETUP_REMOVE=&Kaldýr
+DLG_FWDSETUP_CHECKIDENTITY=Yerel portlar diðer ana bilgisayarlardan baðlantýlarý &kabul etsin
+DLG_FWDSETUP_X=X Yönlendirme
+DLG_FWDSETUP_XAPP=Uzak &X uygulamalarýný yerel X sunucusunda görüntüle
+
+MSG_FWD_REMOTE_XSERVER=uzak X sunucusu
+MSG_FWD_REMOTE_XSCREEN=X sunucusu (görüntü %d:%d)
+MSG_FWD_REMOTE=Uzak "%s" port %s'den yerel "%s" port %s'e
+MSG_FWD_LOCAL=Yerel "%s" port %s'den uzak "%s" port %s'e
+MSG_FWD_X=Uzak X uygulamalarýndan yerel X sunucusuna
+MSG_FWD_DYNAMIC=Yerel "%s" port %s'den uzak dinamik'e
+
+; dlg host
+DLG_HOST_TITLE=Tera Term: Yeni baðlantý
+DLG_HOST_TCPIPHOST=Ana &bilgisayar:
+DLG_HOST_TCPIPHISTORY=Ana bilgisayar &listesi ekle
+DLG_HOST_TCPIPSERVICE=Hizmet
+DLG_HOST_TCPIPOTHER=Diðer
+DLG_HOST_TCPIPPORT=TCP &port#:
+DLG_HOST_TCPIPSSHVERSION=SSH &sürümü:
+DLG_HOST_TCPIPPROTOCOL=IP versiyo&nu:
+DLG_HOST_SERIAL=S&eri
+DLG_HOST_SERIALPORT=Po&rt:
+DLG_HOST_HELP=&Yardým
+
+MSG_TCPPORT_NAN_ERROR=TCP portu bir sayý olmalýdýr.
+
+; dlg keygen
+DLG_KEYGEN_TITLE=TTSSH: Anahtar Üreteci
+DLG_KEYGEN_KEYTYPE=Anahtar türü
+DLG_KEYGEN_PASSPHRASE=Anahtar parolasý:
+DLG_KEYGEN_PASSPHRASE2=Parolayý onayla:
+DLG_KEYGEN_COMMENT=Y&orum:
+DLG_KEYGEN_SAVEPUBLIC=&Genel anahtarý kaydet
+DLG_KEYGEN_SAVEPRIVATE=Ö&zel anahtarý kaydet
+DLG_KEYGEN_GENERATE=&Üret
+DLG_KEYGEN_BITS=Anahtar &Bit:
+DLG_KEYGEN_BCRYPT_KDF=bcrypt &KDF formatý
+DLG_KEYGEN_BCRYPT_ROUNDS=&Tur sayýsý:
+
+MSG_KEYBITS_MIN_ERROR=Anahtar bit sayýsý çok küçük.
+MSG_BCRYPT_ROUNDS_MIN_ERROR=Tur sayýsý çok küçük.
+MSG_BCRYPT_ROUNDS_MAX_ERROR=Tur sayýsý çok büyük.
+MSG_KEYGEN_GENERATING="anahtar üretiliyor"
+MSG_KEYGEN_GENERATED="anahtar üretildi"
+
+FILEDLG_SAVE_PUBLICKEY_TITLE=Genel anahtarý farklý kaydet:
+FILEDLG_SAVE_PUBLICKEY_RSA1_FILTER=SSH1 RSA anahtarý(identity.pub)\0identity.pub\0Tüm Dosyalar(*.*)\0*.*\0\0
+FILEDLG_SAVE_PUBLICKEY_RSA_FILTER=SSH2 RSA anahtarý(id_rsa.pub)\0id_rsa.pub\0Tüm Dosyalar(*.*)\0*.*\0\0
+FILEDLG_SAVE_PUBLICKEY_DSA_FILTER=SSH2 DSA anahtarý(id_dsa.pub)\0id_dsa.pub\0Tüm Dosyalar(*.*)\0*.*\0\0
+FILEDLG_SAVE_PUBLICKEY_ECDSA_FILTER=SSH2 ECDSA anahtarý(id_ecdsa.pub)\0id_ecdsa.pub\0Tüm Dosyalar(*.*)\0*.*\0\0
+FILEDLG_SAVE_PUBLICKEY_ED25519_FILTER=SSH2 ED25519 anahtarý(id_ed25519.pub)\0id_ed25519.pub\0Tüm Dosyalar(*.*)\0*.*\0\0
+MSG_SAVE_KEY_OPENFILE_ERROR=Anahtar dosyasý açýlamýyor
+MSG_SAVE_KEY_WRITEFILE_ERROR=Anahtar dosyasýna yazýlamýyor
+MSG_SAVE_PRIVATE_KEY_MISMATCH_ERROR=Ýki parola eþleþmiyor.
+MSG_SAVE_PRIVATEKEY_EMPTY_WARN=Boþ parola kullanmak istediðinizden emin misiniz?
+FILEDLG_SAVE_PRIVATEKEY_TITLE=Özel anahtarý farklý kaydet:
+FILEDLG_SAVE_PRIVATEKEY_RSA1_FILTER=SSH1 RSA anahtarý(identity)\0identity\0Tüm Dosyalar(*.*)\0*.*\0\0
+FILEDLG_SAVE_PRIVATEKEY_RSA_FILTER=SSH2 RSA anahtarý(id_rsa)\0id_rsa\0Tüm Dosyalar(*.*)\0*.*\0\0
+FILEDLG_SAVE_PRIVATEKEY_DSA_FILTER=SSH2 DSA anahtarý(id_dsa)\0id_dsa\0Tüm Dosyalar(*.*)\0*.*\0\0
+FILEDLG_SAVE_PRIVATEKEY_ECDSA_FILTER=SSH2 ECDSA anahtarý(id_ecdsa)\0id_ecdsa\0Tüm Dosyalar(*.*)\0*.*\0\0
+FILEDLG_SAVE_PRIVATEKEY_ED25519_FILTER=SSH2 ED25519 anahtarý(id_ed25519)\0id_ed25519\0Tüm Dosyalar(*.*)\0*.*\0\0
+
+; dlg setup
+DLG_SSHSETUP_TITLE=TTSSH: Kurulum
+DLG_SSHSETUP_COMPRESS=&Sýkýþtýrma seviyesi:
+DLG_SSHSETUP_COMPRESS_NONE=Yok
+DLG_SSHSETUP_COMPRESS_HIGHEST=En Yüksek
+DLG_SSHSETUP_COMPRESS_NOTE=SSH1: 'Sýkýþtýrma seviyesi' sýkýþtýrma açýk/kapalý belirler.\nSSH2: 'Sýkýþtýrma sýrasý' ve 'Sýkýþtýrma seviyesi' sýkýþtýrma açýk/kapalý belirler.
+DLG_SSHSETUP_CIPHER=&Tercih edilen þifre sýrasý
+DLG_SSHSETUP_CIPHER_UP=Yukarý Taþý(&1)
+DLG_SSHSETUP_CIPHER_DOWN=Aþaðý Taþý(&2)
+DLG_SSHSETUP_CIPHER_BORDER=<bu satýrýn altýndaki þifreler devre dýþý>
+DLG_SSHSETUP_KEX=K&EX sýrasý (sadece SSH2)
+DLG_SSHSETUP_KEX_UP=Yukarý Taþý(&3)
+DLG_SSHSETUP_KEX_DOWN=Aþaðý Taþý(&4)
+DLG_SSHSETUP_KEX_BORDER=<bu satýrýn altýndaki KEX'ler devre dýþý>
+DLG_SSHSETUP_HOST_KEY=Ana bilgisayar &Anahtarý sýrasý (sadece SSH2)
+DLG_SSHSETUP_HOST_KEY_UP=Yukarý Taþý(&5)
+DLG_SSHSETUP_HOST_KEY_DOWN=Aþaðý Taþý(&6)
+DLG_SSHSETUP_HOST_KEY_BORDER=<bu satýrýn altýndaki Ana Bilgisayar Anahtarlarý devre dýþý>
+DLG_SSHSETUP_MAC=MAC sý&rasý (sadece SSH2)
+DLG_SSHSETUP_MAC_UP=Yukarý Taþý(&7)
+DLG_SSHSETUP_MAC_DOWN=Aþaðý Taþý(&8)
+DLG_SSHSETUP_MAC_BORDER=<bu satýrýn altýndaki MAC'ler devre dýþý>
+DLG_SSHSETUP_COMP=Sýkýþtý&rma sýrasý (sadece SSH2)
+DLG_SSHSETUP_COMP_UP=Yukarý Taþý(&9)
+DLG_SSHSETUP_COMP_DOWN=Aþaðý Taþý(&0)
+DLG_SSHSETUP_COMP_BORDER=<bu satýrýn altýndaki Sýkýþtýrma yöntemleri devre dýþý>
+DLG_SSHSETUP_KNOWNHOST=SSH Bilinen Ana Bilgisayarlar
+DLG_SSHSETUP_KNOWNHOST_RW=Oku/&yaz dosyasý:
+DLG_SSHSETUP_KNOWNHOST_RO=&Salt okunur dosyalar:
+DLG_SSHSETUP_HEARTBEAT=HeartBeat(&canlý tut)
+DLG_SSHSETUP_HEARTBEAT_UNIT=saniye (kapatmak için 0)
+DLG_SSHSETUP_PASSWORD=Parolayý &bellekte hatýrla
+DLG_SSHSETUP_FORWARDAGENT=&Agent yönlendirmeyi etkinleþtir
+DLG_SSHSETUP_FORWARDAGENTCONFIRM=Agent yönlendirmeyi &onayla
+DLG_SSHSETUP_FORWARDAGENTNOTIFY=Yönlendirilmiþ agent eriþimini &bildir
+DLG_SSHSETUP_VERIFYHOSTKEYDNS=Ana bilgisayar anahtarý parmak izini DNS ile &doðrula
+DLG_SSHSETUP_NOTICE=Tüm seçenekler bir sonraki oturum baþladýðýnda etkili olur.
+DLG_SSHSETUP_HOSTKEY_ROTATION=Ana bilgisayar anahtarý rotasyo&nu
+DLG_SSHSETUP_HOSTKEY_ROTATION_NO=Hayýr
+DLG_SSHSETUP_HOSTKEY_ROTATION_YES=Evet
+DLG_SSHSETUP_HOSTKEY_ROTATION_ASK=Sor
+DLG_SSHSETUP_LOGLEVEL=&Günlük Seviyesi
+DLG_SSHSETUP_LOGLEVEL_UNIT=(kapatmak için 0)
+
+FILEDLG_OPEN_KNOWNHOSTS_RW_TITLE=Oku/yaz bilinen-ana bilgisayarlar dosyasý seçin
+FILEDLG_OPEN_KNOWNHOSTS_RO_TITLE=Eklenecek salt okunur bilinen-ana bilgisayarlar dosyasý seçin
+
+; dlg tis
+DLG_TIS_TITLE=SSH Kimlik Doðrulama Meydan Okumasý
+DLG_TIS_BANNER=%s'e giriþ yapýlýyor
+
+; dlg passwd change
+DLG_PASSCHG_TITLE=TTSSH: Parola Deðiþtir
+DLG_PASSCHG_MESSAGE=Sunucu parola deðiþtirme isteði
+DLG_PASSCHG_OLDPASSWD=&Eski Parola
+DLG_PASSCHG_NEWPASSWD=&Yeni Parola
+DLG_PASSCHG_CONFIRMPASSWD=&Þifreyi Onayla
+MSG_PASSCHG_MISMATCH=Eþleþmiyor; tekrar deneyin.
+
+; dlg unknown host
+DLG_UNKNOWNHOST_TITLE=GÜVENLÝK UYARISI
+DLG_UNKNOWNHOST_WARNING=Bilinen ana bilgisayarlar listenizde "%s" sunucusu için giriþ yok. Baðlandýðýnýz makine, sunucu gibi davranmaya çalýþan düþmanca bir makine olabilir.
+DLG_UNKNOWNHOST_WARNING2=Bu makineyi bilinen ana bilgisayarlar listesine eklemeyi seçip devam ederseniz, bu uyarýyý bir daha almazsýnýz.
+DLG_UNKNOWNHOST_FINGERPRINT=Sunucunun ana bilgisayar anahtarý parmak izi:
+DLG_UNKNOWNHOST_FP_HASH_ALGORITHM=Parmak izi karma algoritmasý:
+DLG_UNKNOWNHOST_ADD=&Bu makineyi ve anahtarýný bilinen ana bilgisayarlar listesine ekle
+
+DLG_HOSTKEY_SSHFP_NOTFOUND=DNS'de ana bilgisayar anahtarý parmak izi bulunamadý.
+DLG_HOSTKEY_SSHFP_MATCH=DNS'de eþleþen ana bilgisayar anahtarý parmak izi bulundu.
+DLG_HOSTKEY_SSHFP_MISMATCH=DNS'de eþleþmeyen ana bilgisayar anahtarý parmak izi bulundu.
+DLG_HOSTKEY_SSHFP_DIFFTYPE=DNS'de eþleþmeyen ana bilgisayar anahtarý türü bulundu.
+DLG_HOSTKEY_DNSSEC_NG=DNS'de güvensiz parmak izi bulundu.
+DLG_HOSTKEY_DNSSEC_OK=DNS'de güvenli parmak izi bulundu.
+
+DLG_HOSTKEY_ROTATION_TITLE=Ana bilgisayar anahtarý rotasyonu
+DLG_HOSTKEY_ROTATION_WARNING=Uzak sunucu `%s'dan ana bilgisayar anahtarlarý listesini aldýnýz.\nBu makineden %u yeni anahtar(lar) eklemeyi ve %u eski anahtar(lar)ý bilinen ana bilgisayarlar listesinden kaldýrmayý seçebilirsiniz.\nBilinen ana bilgisayarlar dosyasýný güncellemek istediðinizden emin misiniz?
+DLG_HOSTKEY_ROTATION_FP_HASH_ALGORITHM=Parmak izi karma algoritmasý:
+DLG_HOSTKEY_ROTATION_ADD=%u yeni anahtar(lar):
+DLG_HOSTKEY_ROTATION_REMOVE=%u eski anahtar(lar):
+
+; dlg SCP
+DLG_SCP_TITLE=TTSSH: Güvenli Kopyalama Protokolü (SCP)
+DLG_SCP_SENDFILE_FROM=&Kaynak:
+DLG_SCP_SENDFILE_TO=Hedef:
+DLG_SCP_SENDFILE_DRAG=Dosyayý bu pencereye sürükleyebilirsiniz.
+DLG_SCP_SENDFILE_SEND=&Gönder
+DLG_SCP_SENDFILE_CANCEL=&Ýptal
+DLG_SCP_RECEIVEFILE_FROM=Ka&ynak:
+DLG_SCP_RECEIVEFILE_TO=Hedef:
+DLG_SCP_RECEIVEFILE_RECEIVE=&Al
+DLG_SCP_SELECT_FILE_TITLE=SCP ile gönderilecek dosyayý seçin
+DLG_SCP_SELECT_DEST_TITLE=Hedef dizini seçin
+
+; dlg SCP progress
+DLG_SCP_PROGRESS_TITLE_SENDFILE=TTSSH: SCP dosya gönderimi
+DLG_SCP_PROGRESS_TITLE_RECEIVEFILE=TTSSH: SCP dosya alýmý
+DLG_SCP_PROGRESS_FILENAME_LABEL=Dosya adý:
+DLG_SCP_PROGRESS_BYTES_LABEL=Aktarýlan bayt:
+DLG_SCP_PROGRESS_TIME_LABEL=Geçen süre:
+
+; crypt.c
+MSG_ENCRYPT_ERROR1=%s þifreleme hatasý(1): bayt %d (%d)
+MSG_ENCRYPT_ERROR2=%s þifreleme hatasý(2)
+MSG_DECRYPT_ERROR1=%s þifre çözme hatasý(1): bayt %d (%d)
+MSG_DECRYPT_ERROR2=%s þifre çözme hatasý(2)
+MSG_CIPHER_INIT_ERROR=Þifreleme baþlatma hatasý(%d)
+MSG_RSAKEY_SETUP_ERROR=RSA anahtarlarý kurulurken hata
+MSG_UNAVAILABLE_CIPHERS_ERROR=Sunucu TTSSH þifreleme algoritmalarýnýn hiçbirini desteklemiyor.\nTTSSH-to-server yönünde güvenli baðlantý kurulamýyor.\nBaðlantý kapatýlacak.
+MSG_CIPHER_NONE_ERROR=Bu programýn ve sunucunun her ikisinin de anladýðý tüm þifreleme algoritmalarý devre dýþý býrakýldý.\nBu sunucuyla iletiþim kurmak için, Tera Term'i tekrar çalýþtýrdýðýnýzda\nTTSSH Kurulum iletiþim kutusunda daha fazla þifreyi etkinleþtirmeniz gerekecek.\nBu baðlantý þimdi kapatýlacak.
+MSG_RSAKEY_TOOWEAK_ERROR=Sunucu RSA anahtarlarý çok zayýf. Güvenli baðlantý kurulamýyor.
+MSG_CIPHER_NOTSELECTED_ERROR=Hiçbir þifre seçilmedi!
+
+; fwd.c
+MSG_FWD_LOCAL_CHANNEL_ERROR=Sunucu var olmayan bir yönlendirme kanalýný manipüle etmeye çalýþtý.\nYa sunucuda bir hata var ya da düþmanca. Bu baðlantýyý kapatmalýsýnýz.
+MSG_FWD_REQUEST_ERROR=Yönlendirilecek baðlantý dinlenirken iletiþim hatasý.\nDinleme portu sonlandýrýlacak.
+MSG_FWD_REFUSED_ERROR=Baðlantý reddedildi (muhtemelen hizmet þu anda çalýþmýyor)
+MSG_FWD_NETDOWN_ERROR=Makineye ulaþýlamadý (muhtemelen að sorunu)
+MSG_FWD_MACHINEDOWN_ERROR=Makineye ulaþýlamadý (muhtemelen makine kapalý)
+MSG_FWD_ADDRNOTFOUND_ERROR=Makine için adres bulunamadý
+MSG_FWD_CONNECT_ERROR=Yönlendirme baðlantýsý kurulamadý
+MSG_FWD_CHANNEL_ERROR=Ýletiþim hatasý %s yönlendirilmiþ yerel %s.\n%s (kod %d).\nYönlendirilmiþ baðlantý kapatýlacak.
+MSG_FWD_CHANNEL_OPEN_X_ERROR=Sunucu bu makine üzerinden bir baðlantý yönlendirmeye çalýþtý.\n%s üzerindeki X sunucusuna baðlantý istedi (görüntü %d:%d).\n%s(kod %d).\nYönlendirilmiþ baðlantý kapatýlacak.
+MSG_FWD_CHANNEL_OPEN_ERROR=Sunucu bu makine üzerinden bir baðlantý yönlendirmeye çalýþtý.\n%s'e baðlantý istedi (port %s).\n%s(kod %d).\nYönlendirilmiþ baðlantý kapatýlacak.
+DLG_FWDMON_TITLE=TTSSH Port Yönlendirme Monitörü
+MSG_FWD_HOSTILE_ATTACK_ERROR=IP numarasý %s olan ana bilgisayar yönlendirilmiþ yerel port %d'ye baðlanmaya çalýþtý.\nBu bir tür düþmanca saldýrý olabilir.
+MSG_FWD_SOCKET_ERROR=Port yönlendirme için gerekli bazý soket(ler) baþlatýlamadý.\nBazý port yönlendirme hizmetleri kullanýlamayabilir.\n(errno %d)
+MSG_FWD_DUPLICATE_ERROR=TTSSH ÝÇ HATA: Yinelenen tür/port istekleri bulunduðu için port yönlendirmeleri ayarlanamadý
+MSG_FWD_DENIED_HANDLE_ERROR=Sunucu bu makine üzerinden bir baðlantý yönlendirmeye çalýþtý.\n%s makinesinin %s portuna baðlantý istedi.\nÝstek iþlenirken bir hata oluþtu ve reddedildi.
+MSG_FWD_DENIED_ERROR=Sunucu bu makine üzerinden bir baðlantý yönlendirmeye çalýþtý.\n%s makinesinin %d portuna baðlantý istedi.\nBu yönlendirmeyi TTSSH'a önceden belirtmediniz, bu nedenle istek reddedildi.
+MSG_FWD_DENIED_X_ERROR=Sunucu bu makine üzerinden bir baðlantý yönlendirmeye çalýþtý.\nYerel X sunucusuna baðlantý istedi.\nBu yönlendirmeyi TTSSH'a önceden belirtmediniz, bu nedenle istek reddedildi.
+MSG_FWD_DENIED_BY_SERVER_ERROR=Yerel makinedeki bir program yönlendirilmiþ bir porta baðlanmaya çalýþtý.\nYönlendirme isteði sunucu tarafýndan reddedildi. Baðlantý kapatýldý.
+MSG_FWD_COMM_ERROR=Yönlendirilmiþ verileri yerel bir porta gönderirken iletiþim hatasý oluþtu.\nYönlendirilmiþ baðlantý kapatýlacak.
+MSG_FWD_AGENT_FORWARDING_CONFIRM=Agent-yönlendirme isteðini kabul etmek istediðinizden emin misiniz?
+MSG_FWD_AGENT_NOTIFY=Uzak ana bilgisayar agent'a eriþim.
+MSG_FWD_AGENT_NOTIFY_TITLE=Agent Yönlendirme
+
+; hosts.c
+MSG_HOSTS_READ_ENOENT_ERROR=known_hosts dosyasý okunmaya çalýþýlýrken bir hata oluþtu.\nBelirtilen dosya adý mevcut deðil.
+MSG_HOSTS_READ_ERROR=known_hosts dosyasý okunmaya çalýþýlýrken bir hata oluþtu.
+MSG_HOSTS_ALLOC_ERROR=known_hosts dosyasýný okumak için alan ayýrmaya çalýþýlýrken bellek tükendi.
+MSG_HOSTS_HOSTNAME_INVALID_ERROR=Ana bilgisayar adý geçersiz bir karakter içeriyor.\nBu oturum sonlandýrýlacak.
+MSG_HOSTS_HOSTNAME_EMPTY_ERROR=Ana bilgisayar adý boþ olmamalý.\nBu oturum sonlandýrýlacak.
+MSG_HOSTS_FILE_UNSPECIFY_ERROR=Ana bilgisayar ve anahtarý eklenemez, çünkü hiçbir known-hosts dosyasý belirtilmedi.\nTera Term'i yeniden baþlatýn ve TTSSH Kurulum iletiþim kutusunda bir oku/yaz known-hosts dosyasý belirtin.
+MSG_HOSTS_WRITE_EACCES_ERROR=Ana bilgisayar anahtarý yazýlmaya çalýþýlýrken bir hata oluþtu.\nknown-hosts dosyasýna yazma izniniz yok.
+MSG_HOSTS_WRITE_ERROR=Ana bilgisayar anahtarý yazýlmaya çalýþýlýrken bir hata oluþtu.\nAna bilgisayar anahtarý yazýlamadý.
+
+; keyfiles.c
+MSG_KEYFILES_READ_ENOENT_ERROR=Anahtar dosyasý okunmaya çalýþýlýrken bir hata oluþtu.\nBelirtilen dosya adý mevcut deðil.
+MSG_KEYFILES_READ_ERROR=Anahtar dosyasý okunmaya çalýþýlýrken bir hata oluþtu.
+MSG_KEYFILES_READ_ALLOC_ERROR=Anahtar dosyasýný okumak için alan ayýrmaya çalýþýlýrken bellek tükendi.
+MSG_KEYFILES_PRIVATEKEY_NOTCONTAIN_ERROR=Belirtilen anahtar dosyasý SSH özel anahtarý içermiyor.
+MSG_KEYFILES_PRIVATEKEY_TRUNCATE_ERROR=Belirtilen anahtar dosyasý kesilmiþ ve geçerli bir özel anahtar içermiyor.
+MSG_KEYFILES_PRIVATEKEY_LENGTH_ERROR=Belirtilen anahtar dosyasý parola kullanýlarak þifresi çözülemiyor.\nDosya doðru uzunlukta deðil.
+MSG_KEYFILES_PRIVATEKEY_NOCIPHER_ERROR=Belirtilen anahtar dosyasý parola kullanýlarak þifresi çözülemiyor.\nDosyayý þifrelemek için kullanýlan þifre türü bu amaç için TTSSH tarafýndan desteklenmiyor.
+MSG_KEYFILES_PASSPHRASE_EMPTY_ERROR=Belirtilen anahtar dosyasý boþ parola kullanýlarak þifresi çözülemiyor.\nOtomatik giriþ için, parolasýz bir anahtar dosyasý oluþturmalýsýnýz.\nUYARI: Bu, anahtarýn kolayca çalýnabileceði anlamýna gelir.
+MSG_KEYFILES_PASSPHRASE_ERROR=Belirtilen anahtar dosyasý parola kullanýlarak þifresi çözülemiyor.\nParola yanlýþ.
+MSG_KEYFILES_CRYPTOLIB_ERROR=Kriptografi kütüphanesinde hata.\nBelki de saklanan anahtar geçersiz.
+
+; pkt.c
+MSG_PKT_OVERSIZED_ERROR=Sunucudan aþýrý büyük paket alýndý; baðlantý kapanacak.
+
+; ssh.c
+MSG_SSH_INVALID_COMPDATA_ERROR=Alýnan pakette geçersiz sýkýþtýrýlmýþ veri
+MSG_SSH_INVALID_PKT_SIZE_ERROR=Received invalid packet size (%u) @ grab_payload()
+MSG_SSH_TRUNCATED_PKT_ERROR=grab_payload()'da kesilmiþ paket (%u > %u)
+MSG_SSH_INVALID_PKT_SIZE_LIM_ERROR=Received invalid packet size (%u) @ grab_payload_limited()
+MSG_SSH_TRUNCATED_PKT_LIM_ERROR=grab_payload_limited()'da kesilmiþ paket (%u > %u)
+MSG_SSH_COREINS_ERROR='CORE ekleme saldýrýsý' tespit edildi. Baðlantý durduruluyor.
+MSG_SSH_CORRUPTDATA_ERROR=Bozuk veri tespit edildi; baðlantý sonlandýrýlýyor.
+MSG_SSH_DECOMPRESS_ERROR=Ýç hata: bir paket tam olarak açýlamadý.\nBu bir hatadýr, lütfen rapor edin.
+MSG_SSH_SEND_PKT_ERROR=SSH paketi gönderilirken iletiþim hatasý oluþtu.\nBaðlantý kapanacak. (%s:%d)
+MSG_SSH_COMP_ERROR=Paket verileri sýkýþtýrýlýrken hata oluþtu.\nBaðlantý kapanacak.
+MSG_SSH_UNABLE_FWD_ERROR=\nSunucudan yönlendirilmesini istediðiniz bir portu yönlendiremediði için baðlantý kesilmiþ olabilir.\nBu genellikle birisi o portu sunucudan zaten yönlendiriyorsa olur.
+MSG_SSH_SERVER_DISCON_ERROR=Sunucu '%s' mesajýyla baðlantýyý kesti.%s
+MSG_SSH_SERVER_DISCON_NORES_ERROR=Sunucu baðlantýyý kesti (sebep verilmedi).%s
+MSG_SSH_VERSION_ERROR=Bu program sunucunun protokol sürümünü anlamýyor.
+MSG_SSH_VERSION_MISMATCH=Protokol sürümü uyumsuzluðu. sunucu:%d.%d istemci:%d
+MSG_SSH_SEND_ID_ERROR=SSH ID dizesi gönderilirken hata oluþtu.\nBaðlantý kapanacak.
+MSG_SSH_UNEXP_MSG2_ERROR=Mevcut aþamada (%d) beklenmeyen SSH2 mesajý (%d)
+MSG_SSH_UNEXP_MSG_ERROR=Beklenmeyen paket türü alýndý: %d
+MSG_SSH_ALLOC_TERMINAL_ERROR=Sunucu sahte terminal ayýramýyor. Terminalle ilgili bazý sorunlarla karþýlaþabilirsiniz.
+MSG_SSH_SETUP_COMP_ERROR=Sýkýþtýrma ayarlanýrken hata oluþtu.\nBaðlantý kapanacak.
+MSG_SSH_DECRYPT_RSA_ERROR=RSA meydan okumasý þifresi çözülürken hata oluþtu.\nBelki anahtar dosyasý bozuk.
+MSG_SSH_UNSUPPORT_AUTH_METHOD_ERROR=Ýç hata: desteklenmeyen kimlik doðrulama yöntemi
+MSG_SSH_AUTH_FAILURE_ERROR=SSH2 otomatik giriþ hatasý: kullanýcý kimlik doðrulamasý baþarýsýz.
+MSG_SSH_SERVER_NO_AUTH_METHOD_ERROR=Sunucuda geçerli kimlik doðrulama yöntemi yok.
+MSG_SSH_SERVER_UNSUPPORT_AUTH_METHOD_ERROR=\nKimlik doðrulama yöntemi sunucu tarafýndan desteklenmiyor.
+MSG_SSH_CHANNEL_OPEN_ERROR=SSH2_MSG_CHANNEL_OPEN_FAILURE alýndý.\nkanal [%d]: sebep: %s(%d) mesaj: %s
+MSG_SSH_NO_FREE_CHANNEL=Yeni kanal açýlamadý. TTSSH zaten çok fazla kanal açýyor.
+MSG_SSH_GEX_SIZE_TITLE=TTSSH: GEX grup boyutunu onayla
+MSG_SSH_GEX_SIZE_CANCEL=Yeni baðlantý iptal edildi.
+MSG_SSH_GEX_SIZE_OUTOFRANGE=Alýnan grup boyutu aralýk dýþýnda: %d
+MSG_SSH_GEX_SIZE_SMALLER=Alýnan grup boyutu istenen minimum boyuttan küçük.\nistenen: %d, alýnan: %d\nAlýnan grubu kabul etmek istediðinizden emin misiniz?
+MSG_SSH_GEX_SIZE_LARGER=Alýnan grup boyutu istenen maksimum boyuttan büyük.\nistenen: %d, alýnan: %d\nAlýnan grubu kabul etmek istediðinizden emin misiniz?
+MSG_SSH_SUBSYSTEM_REQUEST_ERROR=alt sistem isteði baþarýsýz. (%s)
+MSG_SSH_AGENTERROR_TITLE=Kötü agent isteði
+MSG_SSH_AGENTERROR_TOOLARGE=Agent istek boyutu çok büyük, yoksay.
+MSG_SSH_SCP_FILEOPEN_ERROR_TITLE=TTSSH: dosya açma hatasý
+MSG_SSH_SCP_FILEOPEN_READ_ERROR=Okuma için dosya açýlamýyor: %s %s
+MSG_SSH_SCP_FILEOPEN_READONLY_ERROR=`%s' dosyasý salt okunur.
+MSG_SSH_SCP_FILEOPEN_OVERWRITE_CONFIRM=`%s' dosyasý mevcut.\nüzerine yazýlsýn mý?
+MSG_SSH_SCP_FILEOPEN_WRITE_ERROR=Yazma için dosya açýlamýyor: %s %s
+MSG_SSH_SCP_CONFIRM_TITLE=TTSSH: onayla
+MSG_SSH_SCP_ERROR_TITLE=TTSSH: SCP hatasý
+MSG_SSH_SCP_ERROR_INIT_TITLE=TTSSH: SCP hatasý (SCP_INIT)
+
+; ttxssh.c
+MSG_UNKNOWN_OPTION_ERROR=Tanýnmayan komut satýrý seçeneði: %s
+
+MSG_CREATEWINDOW_SCP_ERROR=SCP iletiþim kutusu görüntülenemiyor.
+MSG_CREATEWINDOW_KEYGEN_ERROR=Anahtar Üreteci iletiþim kutusu görüntülenemiyor.
+MSG_CREATEWINDOW_ABOUT_ERROR=Hakkýnda iletiþim kutusu görüntülenemiyor.
+MSG_CREATEWINDOW_SETUP_ERROR=TTSSH Kurulum iletiþim kutusu görüntülenemiyor.
+MSG_CREATEWINDOW_FWDSETUP_ERROR=Yönlendirme kurulum iletiþim kutusu görüntülenemiyor.
+MSG_CREATEWINDOW_FWDEDIT_ERROR=Yönlendirme düzenleme iletiþim kutusu görüntülenemiyor.
+MSG_CREATEWINDOW_AUTH_ERROR=Kimlik doðrulama iletiþim kutusu görüntülenemiyor.\nBaðlantý sonlandýrýldý.
+MSG_CREATEWINDOW_AUTHSETUP_ERROR=Kimlik doðrulama kurulum iletiþim kutusu görüntülenemiyor.
+MSG_OPEN_FILEDLG_KNOWNHOSTS_ERROR=Dosya iletiþim kutusu görüntülenemiyor: hata %d
+
+MSG_WARNING=UYARI
+MSG_ERROR=HATA
+MSG_TTSSH_ERROR=TTSSH Hatasý
+MSG_NONFATAL_ERROR=Tera Term: ölümcül olmayan hata
+
+BTN_OK=OK
+BTN_CANCEL=Ýptal
+BTN_CLOSE=Kapat
+BTN_DISCONNECT=&Baðlantýyý Kes
+BTN_CONTINUE=&Devam Et
+BTN_YES=&Evet
+BTN_NO=&Hayýr
+BTN_HELP=&Yardým
+
+; x11util.c
+MSG_X_AUTH_ERROR=Uzak X uygulamasý yanlýþ kimlik doðrulama verisi gönderdi.\nX oturumu iptal ediliyor.
+
+
+[TTProxy]
+DLG_TAHOMA_FONT=Tahoma,8,0
+
+MENU_SETUP=&Proxy...
+MENU_ABOUT=TT&Proxy Hakkýnda...
+
+DLG_SETUP_TITLE=Proxy Kurulumu
+DLG_SETUP_URL=URL
+DLG_SETUP_TYPE=&Tür
+DLG_SETUP_HOST=&Ana bilgisayar adý
+DLG_SETUP_PORT=Port &numarasý
+DLG_SETUP_USER=&Kullanýcý adý
+DLG_SETUP_PASS=&Parola
+DLG_SETUP_OTHER=&Diðer kurulum...
+
+DLG_OTHER_TITLE=Diðer Kurulum
+DLG_OTHER_COMMON=Genel kurulum
+DLG_OTHER_TIMEOUT=Baðlantý &Zaman Aþýmý
+DLG_OTHER_SECOND=saniye
+DLG_OTHER_LOG=Proxy baðlantý &kaydý
+DLG_OTHER_REFER=&Göster...
+DLG_OTHER_SOCKS=SOCKS proxy kurulumu
+DLG_OTHER_RESOLV=Ad &Çözümleme
+DLG_OTHER_RESOLV_AUTO=otomatik çözümle
+DLG_OTHER_RESOLV_REMOTE=uzaktan çözümle
+DLG_OTHER_RESOLV_LOCAL=yerel çözümle
+DLG_OTHER_TELNET=TELNET Proxy kurulumu
+DLG_OTHER_HOST=&Ana bilgisayar adý istemi
+DLG_OTHER_USER=&Kullanýcý adý istemi
+DLG_OTHER_PASS=&Parola istemi
+DLG_OTHER_CONNECT=&Baðlandý mesajý
+DLG_OTHER_ERROR=&Hata mesajý
+
+DLG_ABOUT_TITLE=TTProxy Hakkýnda
+DLG_ABOUT_EXTENSION=Tera Term proxy uzantýsý
+DLG_ABOUT_YEBISUYA=YebisuyaHompo
+DLG_ABOUT_HOMEPAGE=TTProxy ana sayfasý
+
+MSG_EMPTY_HOSTNAME=Ana bilgisayar adý boþ!
+MSG_ILLEGAL_PORT=Geçersiz port numarasý!
+MSG_EMPTY_PARAMETER=Bazý parametreler boþ!
+MSG_PROXY_UNAUTHORIZED=Proxy yetkilendirme baþarýsýz!
+MSG_PROXY_BAD_REQUEST=Proxy bu baðlantýyý engelliyor!
+MSG_TYPE_NONE=Proxy olmadan
+MSG_LOGFILE_SELECT=Kayýt Dosyasý Seç
+MSG_UNABLE_TO_GET_ISSUER_CERT=Düzenleyen Sertifikasý alýnamýyor
+MSG_UNABLE_TO_GET_CRL=Sertifika CRL'si alýnamýyor
+MSG_UNABLE_TO_DECRYPT_CERT_SIGNATURE=Sertifika Ýmzasý þifresi çözülemiyor
+MSG_UNABLE_TO_DECRYPT_CRL_SIGNATURE=CRL Ýmzasý þifresi çözülemiyor
+MSG_UNABLE_TO_DECODE_ISSUER_PUBLIC_KEY=Düzenleyen Genel Anahtarý kod çözülemiyor
+MSG_CERT_SIGNATURE_FAILURE=Sertifika Ýmzasý baþarýsýz
+MSG_CRL_SIGNATURE_FAILURE=CRL Ýmzasý baþarýsýz
+MSG_CERT_NOT_YET_VALID=Sertifika henüz geçerli deðil
+MSG_CERT_HAS_EXPIRED=Sertifikanýn süresi dolmuþ
+MSG_CRL_NOT_YET_VALID=CRL henüz geçerli deðil
+MSG_CRL_HAS_EXPIRED=CRL'nin süresi dolmuþ
+MSG_ERROR_IN_CERT_NOT_BEFORE_FIELD=Sertifikanýn notBefore alanýnda format hatasý
+MSG_ERROR_IN_CERT_NOT_AFTER_FIELD=Sertifikanýn notAfter alanýnda format hatasý
+MSG_ERROR_IN_CRL_LAST_UPDATE_FIELD=CRL'nin lastUpdate alanýnda format hatasý
+MSG_ERROR_IN_CRL_NEXT_UPDATE_FIELD=CRL'nin nextUpdate alanýnda format hatasý
+MSG_OUT_OF_MEM=Bellek yetersiz
+MSG_DEPTH_ZERO_SELF_SIGNED_CERT=Kendi kendine imzalanmýþ Sertifika
+MSG_SELF_SIGNED_CERT_IN_CHAIN=Sertifika zincirinde kendi kendine imzalanmýþ Sertifika bulundu
+MSG_UNABLE_TO_GET_ISSUER_CERT_LOCALLY=Yerel Düzenleyen Sertifikasý alýnamýyor
+MSG_UNABLE_TO_VERIFY_LEAF_SIGNATURE=Ýlk Sertifika doðrulanamýyor
+MSG_CERT_CHAIN_TOO_LONG=Sertifika zinciri çok uzun
+MSG_CERT_REVOKED=Sertifika iptal edilmiþ
+MSG_INVALID_CA=Geçersiz CA Sertifikasý
+MSG_PATH_LENGTH_EXCEEDED=Yol uzunluðu kýsýtlamasý aþýldý
+MSG_INVALID_PURPOSE=Desteklenmeyen Sertifika amacý
+MSG_CERT_UNTRUSTED=Sertifikaya güvenilmiyor
+MSG_CERT_REJECTED=Sertifika reddedildi
+MSG_SUBJECT_ISSUER_MISMATCH=Konu Düzenleyen uyumsuzluðu
+MSG_AKID_SKID_MISMATCH=Yetki ve Konu Anahtar Tanýmlayýcýsý uyumsuzluðu
+MSG_AKID_ISSUER_SERIAL_MISMATCH=Yetki ve Düzenleyen Seri Numarasý uyumsuzluðu
+MSG_KEYUSAGE_NO_CERTSIGN=Anahtar kullanýmý Sertifika imzalamayý içermiyor
+MSG_APPLICATION_VERIFICATION=Uygulama doðrulama baþarýsýz
+MSG_UNMATCH_COMMON_NAME=Ortak Ad uyumsuz
+MSG_UNABLE_TO_GET_COMMON_NAME=Ortak Ad alýnamýyor
+
+BTN_OK=OK
+BTN_CANCEL=Ýptal
+
+
+[TTMenu]
+DLG_TAHOMA_FONT=Tahoma,8,0
+
+MENU_LISTCONFIG=Liste Yapýlandýrmasý
+MENU_SETTING=Ayar
+MENU_ICON=büyük simge göster
+MENU_FONT=yazý tipi belirle
+MENU_LEFTPOPUP=sol týkla ile liste göster
+MENU_HOTKEY=liste kýsayol tuþunu göster(Ctl+Alt+M)
+MENU_VERSION=Sürüm
+MENU_EXEC=Çalýþtýr
+MENU_CLOSE=Çýk
+MENU_NOTRAY=(yok)
+
+DLG_ABOUT_TITLE=Sürüm Bilgisi
+DLG_ABOUT_APPNAME=Tera Term baþlatma aracý\nTeraTerm Menü
+
+DLG_CONFIG_TITLE=Liste Yapýlandýrmasý
+DLG_CONFIG_ITEM=Liste Öðesi
+DLG_CONFIG_CONFIG=Yapýlandýrma
+DLG_CONFIG_NAME=Ad
+DLG_CONFIG_PATTERN=Baþlatma Deseni
+DLG_CONFIG_AUTO=otomatik giriþ
+DLG_CONFIG_HOST=Ana Bilgisayar Adý
+DLG_CONFIG_USER=Kullanýcý Adý
+DLG_CONFIG_PASS=Parola
+DLG_CONFIG_MACRO=belirtilen makro dosyasý
+DLG_CONFIG_LAUNCH=sadece baþlat
+DLG_CONFIG_STARTUP=baþlatýrken çalýþtýr
+DLG_CONFIG_LOCKBOX_CHECK=LockBox kullan
+DLG_CONFIG_LOCKBOX_BUTTON=LockBox
+DLG_CONFIG_SSH=SSH kullan
+DLG_CONFIG_KEYFILE=Anahtar dosyasý
+DLG_CONFIG_CHALLENGE=Challenge kullan
+DLG_CONFIG_PAGEANT=Pageant kullan
+DLG_CONFIG_DETAIL=ayrýntýlar
+
+DLG_ETC_TITLE=Yapýlandýrma Ayrýntýlarý
+DLG_ETC_APP=Uygulama
+DLG_ETC_OPTION=Seçenek
+DLG_ETC_CONFIG=Tera Term Yapýlandýrma Dosyasý(baþlatma hariç)
+DLG_ETC_AUTO=Otomatik giriþ için yapýlandýrma
+DLG_ETC_LOGFILE=kayýt dosyasý
+DLG_ETC_PROMPT=Ýstem
+DLG_ETC_USER=Kullanýcý Adý
+DLG_ETC_PASS=Parola
+
+DLG_LOCKBOX_TITLE=TeraTerm Menü
+DLG_LOCKBOX_LABEL=LockBox parolanýzý girin:
+DLG_LOCKBOX_SHOW=Bu parola LockBox'ý kilitlemek ve kilidini açmak için kullanýlýr.
+DLG_LOCKBOX_WRONG=Yanlýþ parola.
+DLG_LOCKBOX_STRTOOLONG=Parola çok uzun.
+DLG_LOCKBOX_NOSTR=Parola girilmedi.
+DLG_LOCKBOX_VALID=Doðru parola.
+MSG_ERROR_NOLOCKBOX=hata: LockBox kurulmamýþ.
+MSG_TOOLTIP_CHECK_LOCKBOX=LockBox etkinleþtirilirse, giriþ parolalarý LockBox'ta þifrelenmiþ olarak saklanýr.
+MSG_TOOLTIP_BUTTON_LOCKBOX=LockBox'ý kilitlemek ve kilidini açmak için parola belirleyin.
+
+MSG_ERROR_READREG=Kayýt defteri verisi okunamadý.\n
+MSG_ERROR_MAKETTL='ttpmenu.TTL' oluþturulamadý\n
+MSG_ERROR_LAUNCH=Uygulama baþlatma baþarýsýz.\n
+MSG_ERROR_NOREGNAME=hata: kayýt defteri adý yok
+MSG_ERROR_INVALIDREGNAME=kayýt defteri adýnda "\\" kullanýlamaz
+MSG_ERROR_NOHOST=hata: ana bilgisayar adý yok
+MSG_ERROR_NOMACRO=hata: makro dosya adý yok
+MSG_ERROR_CHECKFILE=[%s] dosyasý kontrol edilemedi.\n
+MSG_ERROR_SAVEREG=hata: kayýt defterine kaydedilemedi.\n
+MSG_ERROR_OPENREG=hata: kayýt defteri açýlamadý.\n
+MSG_ERROR_SELECTREG=Silinecek kayýt defteri adýný seçin
+MSG_ERROR_GETDELETEREG=Silinecek girdi alýnamadý
+MSG_ERROR_DELETEREG=Kayýt defteri silinemedi.\n
+MSG_ERROR_WINCLASS=Pencere sýnýfý kaydedilemedi.\n
+
+FILEDLG_MACRO_TITLE=makro dosyasý belirtme
+FILEDLG_MACRO_FILTER=makro dosyasý(*.ttl)\0*.ttl\0tüm dosyalar(*.*)\0*.*\0\0
+FILEDLG_KEY_TITLE=özel anahtar dosyasý belirtme
+FILEDLG_KEY_FILTER=kimlik dosyalarý\0identity;id_rsa;id_dsa\0identity(RSA1)\0identity\0id_rsa(SSH2)\0id_rsa\0id_dsa(SSH2)\0id_dsa\0tümü(*.*)\0*.*\0\0
+FILEDLG_TERATERM_TITLE=Tera Term belirtme
+FILEDLG_TERATERM_FILTER=çalýþtýrýlabilir dosya(*.exe)\0*.exe\0tüm dosyalar(*.*)\0*.*\0\0
+FILEDLG_INI_TITLE=yapýlandýrma dosyasý belirtme
+FILEDLG_INI_FILTER=yapýlandýrma dosyasý(*.ini)\0*.ini\0tüm dosyalar(*.*)\0*.*\0\0
+FILEDLG_LOG_TITLE=kayýt dosyasý belirtme
+FILEDLG_LOG_FILTER=kayýt dosyasý(*.log)\0*.log\0tüm dosyalar(*.*)\0*.*\0\0
+
+BTN_OK=OK
+BTN_CANCEL=Ýptal
+BTN_DEFAULT=Varsayýlan
+
+
+[TTXKanjiMenu]
+MENU_KANJI=&KanjiCode
+
+MENU_KANJI_K=Kodlama(&K)
+MENU_RECV_SJIS=Al: &Shift_JIS
+MENU_RECV_EUCJP=Al: &EUC-JP
+MENU_RECV_JIS=Al: &JIS
+MENU_RECV_UTF8=Al: &UTF-8
+MENU_RECV_KS5601=Al: &KS5601
+MENU_SEND_SJIS=Gönder: S&hift_JIS
+MENU_SEND_EUCJP=Gönder: EU&C-JP
+MENU_SEND_JIS=Gönder: J&IS
+MENU_SEND_UTF8=Gönder: U&TF-8
+MENU_SEND_KS5601=Gönder: K&S5601
+MENU_USE_ONE_SETTING=&Tek ayar kullan
+MENU_SJIS=Al/Gönder: &Shift_JIS
+MENU_EUCJP=Al/Gönder: &EUC-JP
+MENU_JIS=Al/Gönder: &JIS
+MENU_UTF8=Al/Gönder: &UTF-8
+MENU_KS5601=Al/Gönder: &KS5601
+MENU_SETTING=Aya&r
+MENU_SETTING_TITLE=KanjiMenu Ayarý
+MENU_CHARCODE=&Karakter kodu menüsünü göster
+MENU_CONTENTS=Menü &içerikleri
+MENU_CONTENTS_AUTO=Otomatik
+MENU_CONTENTS_JAPANESE=Japonca
+MENU_CONTENTS_KOREAN=Korece
+MENU_AMB_MENU=&Belirsiz Karakter geniþlik menüsünü göster
+MENU_USE_ONE_SETTING_MENU=T&ek ayar menüsü kullan
+BTN_OK=OK
+BTN_CANCEL=Ýptal
+BTN_HELP=Yardým
+
+[TTXAlwaysOnTop]
+MENU_ALWAYSONTOP=&Her zaman üstte
+
+
+[TTXRecurringCommand]
+DLG_TAHOMA_FONT=Tahoma,8,0
+
+MENU_SETUP_RECURRING=Te&krar eden komut
+MENU_CONTROL_RECURRING=Te&krar eden komut
+
+DLG_TITLE=Tekrar eden komut
+DLG_ENABLE=&Etkinleþtir
+DLG_INTERVAL=&Aralýk(saniye)
+DLG_COMMAND=&Komut
+DLG_ADD_NEWLINE=&Yeni satýr ekle
+
+BTN_OK=OK
+BTN_CANCEL=Ýptal
+
+[TTXCheckUpdate]
+MSG_CHECKUPDATE=Güncellemeleri otomatik olarak kontrol et?\n  %s
+MENU_CHECKUPDATE=&Güncellemeleri Kontrol Et...
+
+
+[TTXttyrec]
+MENU_RECORD=TT&Y Kaydý
+MENU_REPLAY=TTY &Tekrarla
+MENU_REPLAYAGAIN=Tekrar oynat
+FILE_FILTER=ttyrec(*.tty)\0*.tty\0Tüm dosyalar(*.*)\0*.*\0\0
+FILE_DEFAULTEXTENSION=tty
+TITLE_STATUS_MSG=Hýz: %d, Duraklat: %s
+TITLE_STATUS_ON=AÇIK
+TITLE_STATUS_OFF=KAPALI
+TITLE_TRIM=%d.%06d saniye boþta. %d saniyeye kýrp.
+MSG_TITLE=TTXttyplay
+MSG_RSIZE=rsize != sizeof(b), Devre dýþý.
+
+
+[TTXViewMode]
+MENU_SETPASS=&Görüntüleme modu þifresi
+MENU_VIEWMODE=&Görüntüleme modu
+DLG_SETPASSWORD_TITLE=Þifre belirle
+DLG_SETPASSWORD_CURPASS=Eski þifre
+DLG_SETPASSWORD_NEWPASS=Yeni þifre
+DLG_SETPASSWORD_RETPASS=Þifreyi tekrarla
+DLG_INPUTPASSWORD_TITLE=Þifre Gir
+DLG_INPUTPASSWORD_PASSWORD=Þifre
+MSG_TITLE=TTXViewMode
+MSG_CHANGED=Þifre deðiþtirildi
+MSG_INVALID=Geçersiz Þifre
+MSG_NOTMATCHED=Yeni þifre eþleþmiyor.
+MSG_TITLE_ERROR=TTXViewMode Hatasý
+MSG_CANNOTDISPLAY=Ýletiþim kutusu görüntülenemiyor.
+BTN_OK=OK
+BTN_CANCEL=&Ýptal

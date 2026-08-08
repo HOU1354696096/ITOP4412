@@ -1,0 +1,13 @@
+build/
+
+# 交叉工具链（体积约 1.4GB，用 tools/toolchain/download_toolchain.ps1 下载）
+tools/toolchain/xpack-*/
+tools/toolchain/downloads/
+
+# 参考资料与开发过程文件（本地保留，不入库；清单见 tools/other/README.md）
+tools/other/*
+!tools/other/README.md
+
+# 日志与临时文件
+*.log
+debug.log
