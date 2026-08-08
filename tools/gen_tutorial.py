@@ -10,6 +10,7 @@ gen_tutorial.py - 生成完整教学文档 docs/裸机教程.md
 """
 import os
 import io
+import re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "docs", "裸机教程.md")
@@ -35,14 +36,20 @@ def full(p, title=None):
     因此这种情况统一改用 4 空格缩进代码块(全平台兼容)。
     层级说明: 完整文件是各模块章节(##)下的从属内容, 用 #### 与
     编号小节(### 9.1~9.4)区分开, 避免在目录/大纲里平级并列。
+    CSDN 兼容: 嵌入内容里行首 "# 注释" 在 CSDN 导入时会被误判为标题
+    (ATX 标题要求 # 后跟空格), 因此统一去掉空格写成 "#注释"。
+    对 PowerShell/Makefile 语义完全不变, 复制出来仍可编译。
     """
     t = title or p
     body = read(p).rstrip("\n")
+    # CSDN 会把行首 "# + 空格" 当成标题, 去掉 # 后所有空格即可避免
+    # (PowerShell/Makefile 中 "#  注释" 与 "#注释" 语义完全相同)
+    body_safe = re.sub(r"(?m)^# +", "#", body)
     lang = lang_of(p)
-    if "```" in body:
-        indented = "\n".join("    " + line for line in body.split("\n"))
+    if "```" in body_safe:
+        indented = "\n".join("    " + line for line in body_safe.split("\n"))
         return "#### 完整文件：%s\n\n%s\n\n" % (t, indented)
-    return "#### 完整文件：%s\n\n```%s\n%s\n```\n" % (t, lang, body)
+    return "#### 完整文件：%s\n\n```%s\n%s\n```\n" % (t, lang, body_safe)
 
 
 parts = []
@@ -720,7 +727,7 @@ Get-Disk | Format-Table Number, FriendlyName, Size, BusType
 add("""## 18. Windows 下烧录 SD 卡
 
 ```powershell
-# 在工程根目录执行 (会弹 UAC, 点"是"; -Disk 换成你的磁盘号)
+#在工程根目录执行 (会弹 UAC, 点"是"; -Disk 换成你的磁盘号)
 powershell -ExecutionPolicy Bypass -File tools\\burn_sd.ps1 -Disk 1
 ```
 
@@ -856,6 +863,12 @@ add("""## 22. 常见问题
 
 **烧录报"找不到文件 '\\\\.\\PhysicalDriveN'"**：SD 卡没插好或磁盘号不对，
 按第 17 章重新确认。
+
+**导入 CSDN 后代码注释变成标题 / 代码围栏丢失**：教程文件是标准 Markdown，
+请在 CSDN 编辑器 **Markdown 模式**下直接粘贴 `docs/裸机教程.md` 的**源文件内容**，
+不要复制渲染后的网页/预览（HTML 粘贴会拆散代码块）；图片和视频需自行上传 CSDN 图床。
+嵌入代码中注释统一写成 `#注释`（`#` 后无空格），是为避免 CSDN 把注释误判成标题；
+复制出来仍是合法注释，不影响编译。
 
 ---
 """)

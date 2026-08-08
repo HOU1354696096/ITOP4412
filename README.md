@@ -74,6 +74,7 @@
 │   ├── list_disks.ps1  # 查看电脑磁盘号
 │   ├── verify_sd.ps1   # 读回校验 SD 卡
 │   ├── gen_tutorial.py # 生成 docs/裸机教程.md 的脚本
+│   ├── check_tutorial.py # 校验教程文档结构 + 嵌入源码一致性
 │   ├── toolchain/      # 交叉编译器（parts/ 分片已入库，join_toolchain.ps1 恢复）
 │   ├── teraterm/       # 串口终端
 │   ├── pl2303_v150/    # PL2303 串口驱动
