@@ -14,6 +14,7 @@ import re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "docs", "裸机教程.md")
+OUT_CSDN = os.path.join(ROOT, "docs", "裸机教程-CSDN导入版.md")
 
 
 def read(p):
@@ -50,6 +51,56 @@ def full(p, title=None):
         indented = "\n".join("    " + line for line in body_safe.split("\n"))
         return "#### 完整文件：%s\n\n%s\n\n" % (t, indented)
     return "#### 完整文件：%s\n\n```%s\n%s\n```\n" % (t, lang, body_safe)
+
+
+def csdn_variant(text):
+    """把标准 Markdown 转成 CSDN 导入专用版。
+
+    CSDN 导入对 ``` 围栏支持不稳定(围栏一旦丢失, 行首 # 注释还会被
+    误判成标题), 因此本版本把全部围栏代码块改写成 4 空格缩进式代码块,
+    不依赖任何围栏; 行首 "#注释" 保留无空格写法, 双保险。
+    同时处理引用块内的小段代码(如 23.4 的示例)去掉围栏标记。
+    """
+    banner = (
+        "> **CSDN 导入专用版**\n"
+        "> 本文件由 `tools/gen_tutorial.py` 自动生成, 专为 CSDN 导入优化:\n"
+        "> 1. 所有代码块都是 4 空格缩进式, 不含三反引号围栏(CSDN 对围栏支持不稳定);\n"
+        "> 2. 代码内行首注释统一写成 `#注释`(无空格), 不会被误判成标题;\n"
+        "> 3. 导入方法: 打开 CSDN 编辑器并切换到 **Markdown 模式**, 把本文件的\n"
+        ">    **源文件内容**整篇粘贴进去(不要复制渲染后的网页/预览);\n"
+        ">    图片/视频需自行上传 CSDN 图床; 完整可编译版本见 docs/裸机教程.md。\n"
+        "\n"
+        "---\n"
+        "\n"
+    )
+    lines = text.split("\n")
+    out = []
+    fence = False      # 顶层 ``` 围栏
+    bq_fence = False   # 引用块内的 ``` 围栏
+    for line in lines:
+        if bq_fence:
+            if line.startswith("> ```"):
+                bq_fence = False
+                continue
+            if line.startswith(">"):
+                out.append("> " + line[2:] if len(line) > 2 else ">")
+            else:
+                out.append("> " + line)
+            continue
+        if line.startswith("> ```"):
+            bq_fence = True
+            continue
+        if fence:
+            if line.strip() == "```":
+                fence = False
+                continue
+            out.append("    " + line)
+            continue
+        if line.strip().startswith("```"):
+            fence = True
+            continue
+        out.append(line)
+    return banner + "\n".join(out)
 
 
 parts = []
@@ -868,7 +919,9 @@ add("""## 22. 常见问题
 请在 CSDN 编辑器 **Markdown 模式**下直接粘贴 `docs/裸机教程.md` 的**源文件内容**，
 不要复制渲染后的网页/预览（HTML 粘贴会拆散代码块）；图片和视频需自行上传 CSDN 图床。
 嵌入代码中注释统一写成 `#注释`（`#` 后无空格），是为避免 CSDN 把注释误判成标题；
-复制出来仍是合法注释，不影响编译。
+复制出来仍是合法注释，不影响编译。**若围栏仍被 CSDN 破坏**，请改用
+`docs/裸机教程-CSDN导入版.md`：该版本所有代码块均为 4 空格缩进式、不含
+三反引号围栏，专为 CSDN 导入生成，复制到 GitHub/Gitee 也能正常阅读。
 
 ---
 """)
@@ -935,4 +988,8 @@ powershell -ExecutionPolicy Bypass -File tools\\toolchain\\join_toolchain.ps1
 with io.open(OUT, "w", encoding="utf-8") as f:
     f.write("\n".join(parts))
 
+with io.open(OUT_CSDN, "w", encoding="utf-8") as f:
+    f.write(csdn_variant("\n".join(parts)))
+
 print("tutorial written:", OUT)
+print("csdn variant written:", OUT_CSDN)
