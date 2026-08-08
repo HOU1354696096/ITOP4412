@@ -27,20 +27,22 @@ def lang_of(p):
 
 
 def full(p, title=None):
-    """返回: '### 完整文件 xxx' + 代码块。
+    """返回: '#### 完整文件 xxx' + 代码块。
 
     注意: 嵌入内容里可能含有三重反引号(如 gen_tutorial.py 自身):
     - 用普通围栏会被内容里的反引号提前闭合, 后续内容变成真实标题;
     - 用 4 反引号长围栏在 GitHub/Gitee 可用, 但 CSDN 等编辑器不识别;
     因此这种情况统一改用 4 空格缩进代码块(全平台兼容)。
+    层级说明: 完整文件是各模块章节(##)下的从属内容, 用 #### 与
+    编号小节(### 9.1~9.4)区分开, 避免在目录/大纲里平级并列。
     """
     t = title or p
     body = read(p).rstrip("\n")
     lang = lang_of(p)
     if "```" in body:
         indented = "\n".join("    " + line for line in body.split("\n"))
-        return "### 完整文件：%s\n\n%s\n\n" % (t, indented)
-    return "### 完整文件：%s\n\n```%s\n%s\n```\n" % (t, lang, body)
+        return "#### 完整文件：%s\n\n%s\n\n" % (t, indented)
+    return "#### 完整文件：%s\n\n```%s\n%s\n```\n" % (t, lang, body)
 
 
 parts = []
