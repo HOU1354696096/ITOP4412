@@ -27,25 +27,20 @@ def lang_of(p):
 
 
 def full(p, title=None):
-    """返回: '### 完整文件 xxx' + 代码块
+    """返回: '### 完整文件 xxx' + 代码块。
 
-    注意: 嵌入内容里可能含有三重反引号(如 gen_tutorial.py 自身),
-    外层围栏长度必须大于内容中最长的反引号连续串, 否则 markdown
-    围栏会被提前闭合, 后面的内容会变成真实标题, 破坏文档结构。
+    注意: 嵌入内容里可能含有三重反引号(如 gen_tutorial.py 自身):
+    - 用普通围栏会被内容里的反引号提前闭合, 后续内容变成真实标题;
+    - 用 4 反引号长围栏在 GitHub/Gitee 可用, 但 CSDN 等编辑器不识别;
+    因此这种情况统一改用 4 空格缩进代码块(全平台兼容)。
     """
     t = title or p
     body = read(p).rstrip("\n")
     lang = lang_of(p)
-    maxrun = 0
-    cur = 0
-    for ch in body:
-        if ch == "`":
-            cur += 1
-            maxrun = max(maxrun, cur)
-        else:
-            cur = 0
-    fence = "`" * max(3, maxrun + 1)
-    return "### 完整文件：%s\n\n%s%s\n%s\n%s\n" % (t, fence, lang, body, fence)
+    if "```" in body:
+        indented = "\n".join("    " + line for line in body.split("\n"))
+        return "### 完整文件：%s\n\n%s\n\n" % (t, indented)
+    return "### 完整文件：%s\n\n```%s\n%s\n```\n" % (t, lang, body)
 
 
 parts = []
