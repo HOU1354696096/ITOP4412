@@ -864,7 +864,9 @@ add("""## 22. 常见问题
 add("""# 第八部分：附录
 
 > **本部分讲什么**：构建与烧录脚本的完整源码（Makefile、build.ps1、
-> burn_sd.ps1、gen_tutorial.py），以及生成这份文档的脚本本身。
+> burn_sd.ps1）。生成这份文档的脚本 tools/gen_tutorial.py 因自身包含
+> markdown 代码块与标题（内嵌会在 CSDN 等平台破坏文档结构），
+> 不再全文粘贴，源码见仓库 tools/gen_tutorial.py。
 
 ---
 
@@ -885,7 +887,17 @@ add("""### 23.3 tools/burn_sd.ps1
 
 add("""### 23.4 tools/gen_tutorial.py（生成本文档的脚本）
 
-""" + full("tools/gen_tutorial.py"))
+> 本脚本从工程源码实时读取并生成这份教程，执行方式：
+>
+> ```powershell
+> python tools\\gen_tutorial.py
+> ```
+>
+> 脚本内容本身包含 markdown 代码块和标题，若全文内嵌，在 GitHub/Gitee
+> 会被围栏截断、在 CSDN 会因缩进代码块不识别而泄漏成真实标题
+> （例如本文末尾曾出现两个"附：源码与更新"），因此不在本文重复粘贴。
+> 完整源码见仓库：`tools/gen_tutorial.py`。
+""")
 
 add("""---
 
