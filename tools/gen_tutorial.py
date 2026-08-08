@@ -27,10 +27,25 @@ def lang_of(p):
 
 
 def full(p, title=None):
-    """返回: '### 完整文件 xxx' + 代码块"""
+    """返回: '### 完整文件 xxx' + 代码块
+
+    注意: 嵌入内容里可能含有三重反引号(如 gen_tutorial.py 自身),
+    外层围栏长度必须大于内容中最长的反引号连续串, 否则 markdown
+    围栏会被提前闭合, 后面的内容会变成真实标题, 破坏文档结构。
+    """
     t = title or p
     body = read(p).rstrip("\n")
-    return "### 完整文件：%s\n\n```%s\n%s\n```\n" % (t, lang_of(p), body)
+    lang = lang_of(p)
+    maxrun = 0
+    cur = 0
+    for ch in body:
+        if ch == "`":
+            cur += 1
+            maxrun = max(maxrun, cur)
+        else:
+            cur = 0
+    fence = "`" * max(3, maxrun + 1)
+    return "### 完整文件：%s\n\n%s%s\n%s\n%s\n" % (t, fence, lang, body, fence)
 
 
 parts = []
@@ -89,7 +104,7 @@ add("""## 目录
 **第二部分 启动与链接**
 - 4. [启动文件 start.S 逐句讲解 + 完整源码](#4-启动文件-starts-逐句讲解--完整源码)
 - 5. [主程序启动文件 main_start.S + 完整源码](#5-主程序启动文件-main_starts--完整源码)
-- 6. [链接脚本 .lds 讲解 + 完整源码](#6-链接脚本lds-讲解--完整源码)
+- 6. [链接脚本 .lds 讲解 + 完整源码](#6-链接脚本-lds-讲解--完整源码)
 
 **第三部分 外设库详解**
 - 7. [GPIO 驱动讲解 + 完整源码](#7-gpio-驱动讲解--完整源码)
@@ -118,7 +133,7 @@ add("""## 目录
 - 22. [常见问题](#22-常见问题)
 
 **第八部分 附录**
-- 23. [构建与烧录脚本完整源码](#23-构建与烧录脚本完整源码)
+- 23. [构建与烧录脚本完整源码](#23-附录构建与烧录脚本完整源码)
 
 ---
 """)
