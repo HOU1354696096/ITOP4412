@@ -884,7 +884,7 @@ add("""---
 | 平台 | 克隆地址 |
 | ---- | ---- |
 | GitHub | `git clone https://github.com/HOU1354696096/ITOP4412.git` |
-| Gitee | `git clone https://gitee.com/<你的Gitee账号>/ITOP4412.git`（仓库建立后补充） |
+| Gitee | `git clone https://gitee.com/hou_banchao/ITOP4412_POP_7inLCD.git` |
 
 克隆后第一步安装工具链（仓库自带分片，全程离线，不依赖网络链接）：
 
