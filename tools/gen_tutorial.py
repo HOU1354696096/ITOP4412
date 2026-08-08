@@ -63,6 +63,22 @@ add("""# Exynos4412 裸机开发完整教程（STM32 库风格）
 ---
 """)
 
+add("""## 运行效果演示（视频 + 截图）
+
+以下为本工程在 **iTOP-4412（POP 封装）** 开发板上的实际运行效果。
+视频约 4MB，GitHub / Gitee 页面可直接播放（无法播放时点击下载）。
+
+![运行效果截图（屏幕分块状态面板）](media/运行效果.jpg)
+
+<video src="media/运行效果.mp4" controls width="720"></video>
+
+> 视频内容：上电 → BL2 初始化时钟与 DDR → 主程序搬运到 DDR `0x43E00000` →
+> LCD 显示分块状态面板（UART2/UART3 收发计数与 LOG、LED、蜂鸣器、按键、
+> 系统状态）→ 蜂鸣器播放内置歌曲，VOL± 切歌、SLEEP 停止、BACK/HOME 控制 LED。
+
+---
+""")
+
 add("""## 目录
 
 **第一部分 预备知识**
@@ -858,6 +874,26 @@ add("""### 23.3 tools/burn_sd.ps1
 add("""### 23.4 tools/gen_tutorial.py（生成本文档的脚本）
 
 """ + full("tools/gen_tutorial.py"))
+
+add("""---
+
+# 附：源码与更新（git 地址）
+
+本工程源码归档在以下 git 仓库（内容同步，任选其一克隆）：
+
+| 平台 | 克隆地址 |
+| ---- | ---- |
+| GitHub | `git clone https://github.com/HOU1354696096/ITOP4412.git` |
+| Gitee | `git clone https://gitee.com/<你的Gitee账号>/ITOP4412.git`（仓库建立后补充） |
+
+克隆后第一步安装工具链（仓库自带分片，全程离线，不依赖网络链接）：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File tools\\toolchain\\join_toolchain.ps1
+```
+
+然后编译、烧录、上板，详见本文第 16~21 章。
+""")
 
 with io.open(OUT, "w", encoding="utf-8") as f:
     f.write("\n".join(parts))
