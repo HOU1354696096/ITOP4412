@@ -46,7 +46,8 @@ if ($TcCandidates) {
             Write-Warning "把工具链放到工程 tools\toolchain\ 下, 否则换电脑/换目录后无法编译!"
         } else {
             Write-Host '找不到 arm-none-eabi-gcc 交叉编译器!' -ForegroundColor Red
-            Write-Host '请先运行:  powershell -ExecutionPolicy Bypass -File tools\toolchain\download_toolchain.ps1' -ForegroundColor Yellow
+            Write-Host '请先运行:  powershell -ExecutionPolicy Bypass -File tools\toolchain\join_toolchain.ps1' -ForegroundColor Yellow
+            Write-Host '         (仓库自带分片, 离线恢复; 分片缺失时用 download_toolchain.ps1 在线下载)' -ForegroundColor Yellow
             exit 1
         }
     }

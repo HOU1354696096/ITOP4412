@@ -1,14 +1,11 @@
-<#
-    download_toolchain.ps1 - 一键下载并解压 arm-none-eabi 交叉编译器
+﻿<#
+    download_toolchain.ps1 - 在线下载并解压 arm-none-eabi 交叉编译器（备用通道）
 
-    这个脚本会把本工程编译所需的全部工具链下载到工程内的
-    tools\toolchain\ 目录 (绿色版, 不污染系统 PATH), 内容包括:
+    ⚠ 首选方案: 仓库 parts\ 分片已随 git 提交, 请优先运行
+        powershell -ExecutionPolicy Bypass -File tools\toolchain\join_toolchain.ps1
+    本脚本仅在分片缺失/损坏时才需要（在线下载官方安装包）。
 
-      1. xPack arm-none-eabi-gcc 15.2.1-1.1   (交叉编译器 gcc/ld/objcopy/...)
-      2. xPack Windows Build Tools 4.4.1-3    (make / rm 等, 供 Makefile 使用)
-
-    下载完成后, tools\build.ps1 会自动在 tools\toolchain\ 下找到工具链,
-    不需要手动修改任何脚本路径。
+    下载并解压到 tools\toolchain\ 目录 (绿色版, 不污染系统 PATH)。
 
     用法:
         powershell -ExecutionPolicy Bypass -File tools\toolchain\download_toolchain.ps1
@@ -42,8 +39,7 @@ $Jobs = @(
 foreach ($j in $Jobs) {
     $zip = Join-Path $DlDir ($j.Name + '.zip')
     $out = Join-Path $TcDir $j.Name
-    if (Test-Path (Join-Path $out 'bin\arm-none-eabi-gcc.exe') -or
-        Test-Path (Join-Path $out 'bin\make.exe')) {
+    if ((Test-Path (Join-Path $out 'bin\arm-none-eabi-gcc.exe')) -or (Test-Path (Join-Path $out 'bin\make.exe'))) {
         Write-Host "已存在: $out , 跳过下载。" -ForegroundColor Green
         continue
     }

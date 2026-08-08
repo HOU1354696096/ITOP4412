@@ -169,17 +169,21 @@ add("""## 2. 需要的工具与下载地址
 | **SD 卡 + 读卡器** | 存放启动镜像 | 普通 SD/microSD 卡 |
 | **管理员权限** | 烧录脚本直接写物理磁盘 | Windows UAC |
 
-**工具链安装步骤（推荐用工程自带脚本，自动放到 tools\\toolchain）：**
+**工具链安装步骤（仓库已内置分片，离线恢复，链接永不过期）：**
 
 1. 在工程根目录打开 PowerShell，执行：
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File tools\\toolchain\\download_toolchain.ps1
+powershell -ExecutionPolicy Bypass -File tools\\toolchain\\join_toolchain.ps1
 ```
 
-2. 脚本从 xPack 官方 GitHub Release 下载并解压到 `tools\\toolchain\\`；
+2. 脚本把 `tools\\toolchain\\parts\\` 里的安装包分片（320MB，随 git 仓库
+   提交）合并、校验 SHA256 并解压到 `tools\\toolchain\\`（约 1.4GB，全程离线）；
 3. 之后直接编译即可，`tools\\build.ps1` 会自动在 `tools\\toolchain\\` 下
    找到工具链（找不到再回退到系统 PATH），**无需修改任何脚本路径**。
+
+> 备用：如果 `parts\\` 分片缺失（旧版本克隆），才需要在线下载：
+> `powershell -ExecutionPolicy Bypass -File tools\\toolchain\\download_toolchain.ps1`
 
 > **关键项 3**：工具链请放在 `tools\\toolchain\\` 下（或加入 PATH）。
 > ⚠ 绝对路径警告：**不要**像旧教程那样把工具链写死成
@@ -224,7 +228,9 @@ exynos4412/
 │   ├── verify_sd.ps1            # 读回校验 SD
 │   ├── gen_tutorial.py          # 生成本文档的脚本
 │   ├── toolchain/               # 交叉编译器
-│   │   └── download_toolchain.ps1  # 一键下载工具链到本目录
+│   │   ├── parts/               # 安装包分片（已入库，链接不过期）
+│   │   ├── join_toolchain.ps1   # 首选：分片合并解压（离线）
+│   │   └── download_toolchain.ps1 # 备用：在线下载
 │   ├── teraterm/                # 串口终端
 │   ├── pl2303_v150/             # PL2303 串口驱动
 │   ├── bl1/                     # 三星 BL1
@@ -610,7 +616,7 @@ add("""## 16. Windows 下编译（build.ps1 / Makefile）
 
 ### 方式一：build.ps1（推荐 Windows）
 
-1. 确保工具链就绪：运行 `tools\\toolchain\\download_toolchain.ps1`
+1. 确保工具链就绪：运行 `tools\\toolchain\\join_toolchain.ps1`
    （或把 arm-none-eabi-gcc 所在目录加入 PATH）；
 2. 在工程根目录打开 PowerShell：
 

@@ -74,7 +74,7 @@
 │   ├── list_disks.ps1  # 查看电脑磁盘号
 │   ├── verify_sd.ps1   # 读回校验 SD 卡
 │   ├── gen_tutorial.py # 生成 docs/裸机教程.md 的脚本
-│   ├── toolchain/      # 交叉编译器（download_toolchain.ps1 自动下载）
+│   ├── toolchain/      # 交叉编译器（parts/ 分片已入库，join_toolchain.ps1 恢复）
 │   ├── teraterm/       # 串口终端
 │   ├── pl2303_v150/    # PL2303 串口驱动
 │   ├── bl1/            # 三星 BL1 启动镜像
@@ -85,14 +85,19 @@
 ## 编译
 
 需要 `arm-none-eabi` 交叉编译器（本工程使用 xPack arm-none-eabi-gcc 15.2.1）。
-**第一次使用先运行**（自动下载工具链到 `tools/toolchain/`，约 1.4GB）：
+工具链安装包（约 320MB）已**分片打包进 git 仓库**，克隆后离线恢复即可：
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File tools\toolchain\download_toolchain.ps1
+powershell -ExecutionPolicy Bypass -File tools\toolchain\join_toolchain.ps1
 ```
 
-之后 `tools/build.ps1` 会自动在 `tools/toolchain/` 下找到工具链，
+`join_toolchain.ps1` 会把 `tools/toolchain/parts/` 里的分片合并、校验 SHA256
+并解压到 `tools/toolchain/`（约 1.4GB，全程离线，不依赖任何网络链接）。
+之后 `tools/build.ps1` 会自动找到工具链，
 **不需要手动配置任何路径**（找不到时回退到系统 PATH）。
+
+> 备用：如果 `parts/` 分片缺失（旧版本克隆），才需要在线下载
+> `tools\toolchain\download_toolchain.ps1`。
 
 > ⚠ 路径规范：本工程所有脚本都以**工程目录为基准的相对路径**定位文件，
 > 换目录、换电脑都不会失效。**请不要把工具链或文件路径写死成
@@ -157,14 +162,15 @@ SD 卡布局（与三星 E4412 / 迅为 iTOP-4412 标准一致）：
 
 | 内容 | 位置 | 原因 |
 | ---- | ---- | ---- |
-| 交叉工具链（约 1.4GB） | `tools/toolchain/xpack-*/` | 用 `download_toolchain.ps1` 一键下载 |
+| 交叉工具链安装包 | `tools/toolchain/parts/`（约 320MB，**已入库**） | 超 100MB 单文件限制，切成 ≤76.3MB 分片提交 |
+| 工具链解压产物（约 1.4GB） | `tools/toolchain/xpack-*/` | 体积过大不入库，由 `join_toolchain.ps1` 恢复 |
 | 迅为 U-Boot/内核/原理图/手册（约 4.2GB） | `tools/other/` | 参考用，见 `tools/other/README.md` |
 | 开发过程日志/脚本 | `tools/other/dev/` | 仅作者排错用 |
 
 克隆仓库后执行两条命令即可编译：
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File tools\toolchain\download_toolchain.ps1
+powershell -ExecutionPolicy Bypass -File tools\toolchain\join_toolchain.ps1
 powershell -ExecutionPolicy Bypass -File tools\build.ps1
 ```
 
